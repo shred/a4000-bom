@@ -36,7 +36,7 @@ See [this article](http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide
 
 This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are *not* a part of this project.
 
-This list also includes regular electrolytic capacitors, which may also leak over the years, and cause damage to the board. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. The choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.
+This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. There are good arguments for both types, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.
 
 ## Contribute
 

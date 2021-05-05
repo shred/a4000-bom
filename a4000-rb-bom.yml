@@ -1,380 +1,388 @@
 # A4000D Rev B Bill of Material
 ---
-version: 0.1
-date: 2021-05-04
+version: 0.2
+date: 2021-05-05
 ---
 
 Board:
   - id: 364838-01
     part: "PCB"
     quantity: 1
+    remark: "Acill's Amiga 4000D Replica Board"
 
 Capacitors:
   - id: 390818-01
-    part: "Capacitor, SM, MLC, NPO, 22pF"
+    part: "22pF - MLC, NPO"
     package: "1206"
     quantity: 2
     components: ["C179", "C485"]
   - id: 390818-04
-    part: "Capacitor, SM, MLC, NPO, 47pF"
+    part: "47pF - MLC, NPO"
     package: "1206"
     quantity: 29
     components: ["EC350-EC364", "EC976-EC989"]
   - id: 390818-05
-    part: "Capacitor, SM, MLC, NPO, 56pF"
+    part: "56pF - MLC, NPO"
     package: "1206"
     quantity: 1
     components: ["C178"]
   - id: 390818-06
-    part: "Capacitor, SM, MLC, NPO, 100pF"
+    part: "100pF - MLC, NPO"
     package: "1206"
     quantity: 44
     components: ["EC182-EC184", "EC300-EC309", "EC365-EC379", "EC410", "EC411", "EC451-EC464"]
   - id: 390818-10
-    part: "Capacitor, SM, MLC, NPO, 330pF"
+    part: "330pF - MLC, NPO"
     package: "1206"
     quantity: 2
-    components: ["C446,", "C447"]
+    components: ["C446", "C447"]
   - id: 390853-08
-    part: "Capacitor, SM, MLC, X7R, 3900pF"
+    part: "3900pF - MLC, X7R"
     package: "1206"
     quantity: 2
     components: ["C432", "C442"]
   - id: 390853-09
-    part: "Capacitor, SM, MLC, X7R, 6800pF"
+    part: "6800pF - MLC, X7R"
     package: "1206"
     quantity: 2
     components: ["C431", "C441"]
   - id: 390853-01
-    part: "Capacitor, SM, MLC, X7R, 0.01 µF"
+    part: "0.01µF - MLC, X7R"
     package: "1206"
     quantity: 9
     components: ["C104", "C154B", "C186", "C193", "C195", "C409", "C460D", "C460E", "C460F"]
   - id: 390853-04
-    part: "Capacitor, SM, MLC, X7R, 0.047µF"
+    part: "0.047µF - MLC, X7R"
     package: "1206"
     quantity: 6
     components: ["C411-C414", "C430", "C440"]
   - id: 310027-02
-    part: "Capacitor, SM, Ceramic, 0.1µF"
+    part: "0.1µF - Ceramic"
     package: "1206"
     quantity: 64
     components: ["C102", "C103", "C106", "C130", "C131", "C140", "C141", "C145", "C152", "C154A", "C177", "C201", "C205", "C211A", "C211B", "C211C", "C212", "C213", "C215", "C216", "C250A", "C250C", "C300", "C305", "C311", "C350-C355", "C400B", "C402A", "C402B", "C455-C459", "C455B", "C456B", "C457B", "C458B", "C460A", "C460B", "C460C", "C500", "C511-C513", "C860", "C890-C894", "C901-C904", "C907", "C975", "C976", "C990"]
   - id: 390797-02
-    part: "Capacitor, SM, Ceramic, Z5U, 0.22µF"
+    part: "0.22µF - Ceramic, Z5U"
     package: "1210"
     quantity: 19
     components: ["C150", "C175", "C176", "C199", "C403", "C405", "C406", "C450", "C700-C704", "C706-C708", "C710", "C711", "C714"]
   - id: 391097-06
-    part: "Capacitor, SM, Elec. Alum. 4.7µF 25V"
+    part: "4.7µF 25V - Aluminum electrolytic"
     package: "A"
     quantity: 2
     components: ["C200", "C404"]
   - id: 391097-07
-    part: "Capacitor, SM, Elec. Alum. 10µF 25V"
+    part: "10µF 25V - Aluminum electrolytic"
     package: "C"
     quantity: 1
     components: ["C460G"]
   - id: 391097-03
-    part: "Capacitor, SM, Elec. Alum. 22µF 16V"
+    part: "22µF 16V - Aluminum electrolytic"
     package: "C"
     quantity: 5
     components: ["C198", "C317", "C318", "C433", "C443"]
   - id: 391097-04
-    part: "Capacitor, SM, Elec. Alum. 47µF 16V"
+    part: "47µF 16V - Aluminum electrolytic"
     package: "D"
     quantity: 10
     components: ["C187-C192", "C194", "C196", "C407", "C408"]
   - id: 391097-01
-    part: "Capacitor, SM, Elec. Alum. 100µF 6.3V"
+    part: "100µF 6.3V - Aluminum electrolytic"
     package: "D"
     quantity: 1
     components: ["C181"]
   - id: 390101-03
-    part: "Capacitor, Elec. Alum. Radial 470µF 16V"
+    part: "470µF 16V - Aluminum electrolytic"
     quantity: 2
+    package: "Radial"
     components: ["C185", "C400A"]
   - id: 251029-06
-    part: "Capacitor, Trimmer, Ceramic, 6.8-45pF"
+    part: "6.8-45pF - Trimmer, Ceramic"
     quantity: 1
     components: ["VC190"]
     rare: yes
 
-"Transistors and Diodes":
+Transistors:
   - id: 391121-01
-    part: "IC, SMD, NPN, Transistor, 2N3904"
+    part: "2N3904 - NPN"
     package: "SOT23"
     quantity: 2
     components: ["Q300", "Q901"]
   - id: 391122-01
-    part: "IC, SMD, PNP, Transistor, 2N3906"
+    part: "2N3906 - PNP"
     package: "SOT23"
     quantity: 1
     components: ["Q400"]
   - id: 391145-01
-    part: "Transistor, SM, N-Channel JFET MMBF102L"
+    part: "MMBF102L - N-Channel JFET"
     quantity: 2
     components: ["Q430", "Q440"]
+
+Diodes:
   - id: 391327-01
-    part: "Diode, SM, 1N4001"
+    part: "1N4001"
     package: "MELF"
     quantity: 15
     components: ["D175", "D176", "D305-D307", "D360-D363,", "D500-D505"]
   - id: 391129-01
-    part: "Diode, SMT, 1N4148"
+    part: "1N4148"
     package: "SOT23"
     quantity: 3
     components: ["D177", "D178", "D300"]
 
 Ferrites:
   - id: 391559-01
-    part: "Filter, Ferrite, SMT"
+    part: "Filter, Ferrite"
     package: "1812"
     quantity: 15
     components: ["FB177", "FB308", "FB309", "FB364-FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB478-FB480", "FB975"]
   - id: 391092-03
-    part: "Filter, Ferrite, SMT"
+    part: "Filter, Ferrite"
     package: "1206"
     quantity: 17
     components: ["ER976-ER989", "FB410", "FB411", "FB710"]
 
 Resistors:
   - id: 391093-01
-    part: "Resistor, SM, 1W, 5%, 1Ω"
+    part: "1Ω - 1W, 5%"
     package: "2512"
     quantity: 1
     components: ["R400"]
   - id: 391093-07
-    part: "Resistor, SM, 1W, 5%, 20Ω"
+    part: "20Ω - 1W, 5%"
     package: "2512"
     quantity: 2
     components: ["R176", "R177"]
   - id: 391093-04
-    part: "Resistor, SM, 1W, 5%, 47Ω"
+    part: "47Ω - 1W, 5%"
     package: "2512"
     quantity: 1
     components: ["R383"]
   - id: 310026-45
-    part: "Resistor, Chip, 1/8W, 5%, 1Ω"
+    part: "1Ω - 1/8W, 5%"
     package: "1206"
     quantity: 3
     components: ["R403", "R404", "R465"]
+    remark: "R465 must be mounted on Acill boards"
   - id: 310026-24
-    part: "Resistor, Chip, 1/8W, 5%, 120Ω"
+    part: "120Ω - 1/8W, 5%"
     package: "1206"
     quantity: 1
     components: ["R311"]
   - id: 310026-43
-    part: "Resistor, Chip, 1/8W, 5%, 33Ω"
+    part: "33Ω - 1/8W, 5%"
     package: "1206"
     quantity: 37
     components: ["R104", "R211", "R231-R237", "R240-R248", "R881-R899"]
   - id: 310026-01
-    part: "Resistor, Chip, 1/8W, 5%, 47Ω"
+    part: "47Ω - 1/8W, 5%"
     package: "1206"
     quantity: 117
     components: ["ER175", "ER176", "ER300-ER307", "ER350-ER363", "ER367-ER379", "ER453", "ER458-ER461", "ER475", "R101-R103", "R105", "R106", "R111", "R112", "R161", "R162", "R165-R170", "R212-R218", "R222", "R223", "R451", "R458-R464", "R458A", "R458B", "R500-R508", "R513", "R520-R543", "R660", "R661", "R701-R704"]
   - id: 391509-04
-    part: "Resistor, Chip, 1/10W, 5%, 47Ω"
+    part: "47Ω - 1/10W, 5%"
     package: "0805"
     quantity: 24
     components: ["R455A,", "R455B", "R455C", "R455D", "R455E", "R455F", "R455G", "R455H", "R456A", "R456B", "R456C", "R456D", "R456E", "R456F", "R456G", "R456H", "R457A", "R457B", "R457C", "R457D", "R457E", "R457F", "R457G", "R457H"]
   - id: 310026-29
-    part: "Resistor Chip, 1/8W, 5%, 75Ω"
+    part: "75Ω - 1/8W, 5%"
     package: "1206"
     quantity: 3
     components: ["R510-R512"]
   - id: 310026-30
-    part: "Resistor, Chip, 1/8W, 5%, 220Ω"
+    part: "220Ω - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R301", "R307"]
   - id: 310026-21
-    part: "Resistor, Chip, 1/8W, 5%, 470Ω"
+    part: "470Ω - 1/8W, 5%"
     package: "1206"
     quantity: 6
     components: ["R120-R122", "R175", "R178", "R651"]
   - id: 310026-56
-    part: "Resistor, Chip, 1/8W, 5%, 680Ω"
+    part: "680Ω - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R65", "R66"]
   - id: 310026-57
-    part: "Resistor, Chip, 1/8W, 5%, 750Ω"
+    part: "750Ω - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R430", "R440"]
   - id: 310026-07
-    part: "Resistor, Chip, 1/8W, 5%, 1.0KΩ"
+    part: "1.0kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 76
     components: ["R125-R128", "R171-R173", "R181", "R182", "R239", "R249", "R302", "R371", "R381", "R382", "R401", "R402", "R433", "R434", "R443", "R444", "R545-R548", "R612-R626", "R630-R635", "R639", "R67", "R68", "R70-R73", "R708-R712", "R720-R722", "R861", "R862", "R911", "R912", "R975"]
   - id: 310026-54
-    part: "Resistor, Chip, 1/8W, 5%, 1.2KΩ"
+    part: "1.2kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 12
     components: ["R179", "R405", "R79-R88"]
   - id: 310026-51
-    part: "Resistor, Chip, 1/8W, 5%, 2.4KΩ"
+    part: "2.4kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R403D", "R403H"]
   - id: 310026-16
-    part: "Resistor, Chip, 1/8W, 5%, 2.7KΩ"
+    part: "2.7kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 76
     components: ["R1-R64", "R206", "R207", "R407", "R652", "R74-R78", "R871", "R904", "R905"]
   - id: 310026-46
-    part: "Resistor, Chip, 1/8W, 5%, 3.3KΩ"
+    part: "3.3kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 3
     components: ["R151", "R360", "R361"]
   - id: 310026-08
-    part: "Resistor, Chip, 1/8W, 5%, 4.7KΩ"
+    part: "4.7kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 17
     components: ["R403C", "R403G", "R515", "R981-R994"]
   - id: 310026-17
-    part: "Resistor, Chip, 1/8W, 5%, 10 KΩ"
+    part: "10kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 21
     components: ["R208", "R305", "R306", "R355-R359", "R403A", "R403B", "R403E", "R403F", "R406", "R408", "R431", "R432", "R441", "R442", "R457", "R465", "R514"]
   - id: 310026-55
-    part: "Resistor, Chip, 1/8W, 5%, 11 KΩ"
+    part: "11kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R902", "R903"]
   - id: 310026-31
-    part: "Resistor, Chip, 1/8W, 5%, 100KΩ"
+    part: "100kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 1
     components: ["R180"]
   - id: 310026-19
-    part: "Resistor, Chip, 1/8W, 5%, 470KΩ"
+    part: "470kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R435", "R445"]
   - id: 391154-27
-    part: "Resistor, Chip, 1/8W, 1%, 562Ω"
+    part: "562Ω - 1/8W, 1%"
     package: "1206"
     quantity: 1
     components: ["R509"]
   - id: 902412-14
-    part: "Res. Netwk., SIP, 9 Pin, 8 Element, 1KΩ"
+    part: "1kΩ Resistor Network, 8 Element"
+    package: "SIP9"
     quantity: 3
     components: ["RP461-RP463"]
   - id: 902410-10
-    part: "Res. Netwk., SIP, 10 Pin, 9 Element, 1KΩ"
+    part: "1kΩ Resistor Network, 9 Element"
+    package: "SIP10"
     quantity: 1
     components: ["RP351"]
   - id: 902442-35
-    part: "Res. Netwk., SIP, 8 Pin, 7 Element, 10KΩ"
+    part: "10kΩ Resistor Network, 7 Element"
+    package: "SIP8"
     quantity: 1
     components: ["RP176"]
 
 Oscillators:
   - id: 325566-27
-    part: "Oscillator, 50 MHz, Can"
-    package: "TH"
+    part: "50 MHz Oscillator, metal"
+    package: "DIP14"
     quantity: 1
     components: ["U104"]
   - id: 325566-14
-    part: "Oscillator, 28.63636 MHz, Can"
-    package: "TH"
+    part: "28.63636 MHz Oscillator, metal"
+    package: "DIP14"
     quantity: 1
     remark: "Only required on NTSC machines"
     components: ["U154"]
+    rare: yes
   - id: 252344-01
-    part: "Oscillator, 28.37516 MHz, Can"
-    package: "TH"
+    part: "28.37516 MHz Oscillator, metal"
+    package: "DIP14"
     quantity: 1
     remark: "Only required on PAL machines"
     components: ["U154"]
+    rare: yes
   - id: 900560-01
-    part: "Crystal, 32.768 KHz"
+    part: "32.768 kHz Crystal"
     package: "TH"
     quantity: 1
     components: ["Y176"]
 
 "Integrated Circuits":
   - id: 391513-02
-    part: "IC, Kickstart ROM"
+    part: "Kickstart ROM \"Low\", 150ns"
     package: "DIP40"
     quantity: 1
-    remark: "Low, 150ns"
     components: ["U176"]
   - id: 391514-02
-    part: "IC, Kickstart ROM"
+    part: "Kickstart ROM \"High\", 150ns"
     package: "DIP40"
     quantity: 1
-    remark: "High, 150ns"
     components: ["U175"]
   - id: 391010-01
-    part: "IC, CSG, 8374, ALICE"
+    part: "CSG, 8374 \"Alice\""
     package: "PLCC84"
     quantity: 1
     components: ["U211"]
     rare: yes
   - id: 391227-01
-    part: "IC, CSG, 4203, LISA"
+    part: "CSG, 4203 \"Lisa\""
     package: "PLCC84"
     quantity: 1
     components: ["U450"]
     rare: yes
   - id: 391077-01
-    part: "IC, 8364R7 PAULA"
+    part: "8364R7 \"Paula\""
     package: "PLCC52"
     quantity: 1
     components: ["U400"]
     rare: yes
   - id: 391078-02
-    part: "IC, SM, LSI, CIA 8520A-1"
+    part: "LSI, CIA 8520A-1"
     package: "PLCC44"
     quantity: 2
     components: ["U300", "U350"]
     rare: yes
   - id: 390525-01
-    part: "IC, Ricoh, Real Time Clock, RP5C01"
+    part: "Ricoh, Real Time Clock, RP5C01"
     package: "DIP18"
     quantity: 1
     components: ["U178"]
     rare: yes
   - id: 391494-01
-    part: "IC, VideoDAC, Triple 8-BIT, ADV7120"
+    part: "VideoDAC, Triple 8-BIT, ADV7120"
     package: "PLCC44"
     quantity: 1
     components: ["U460"]
   - id: 390540-02
-    part: "IC, LSI, FAT GARY, FOO8B"
+    part: "LSI, FOO8B \"Fat Gary\""
     package: "PLCC84"
     quantity: 1
     components: ["U150"]
     rare: yes
   - id: 390541-07
-    part: "IC, FAT RAMSEY, F012G"
+    part: "F012G \"Fat Ramsey\""
     package: "PLCC84"
     quantity: 1
     components: ["U890"]
     rare: yes
   - id: 391380-01
-    part: "IC, BRIDGETTE"
+    part: "\"Bridgette\""
     package: "PQFP100"
     quantity: 1
     components: ["U250"]
     rare: yes
   - id: 390539-09
-    part: "IC, LSI, FAT BUSTER, F0131"
+    part: "LSI, F0131 \"Fat Buster\""
     package: "PLCC84"
     quantity: 1
     components: ["U700"]
     rare: yes
   - id: 391473-01
-    part: "IC, SMD, Op Amp, Dual, LM833"
+    part: "LM833, Dual Op Amp"
     package: "SOIC8N"
     quantity: 1
     components: ["U403"]
   - id: 391103-01
-    part: "IC, SMD, Op Amp, Quad JFET, LF347"
+    part: "LF347, Quad Op Amp, JFET"
     package: "SOIC14N"
     quantity: 1
     components: ["U402"]
@@ -385,178 +393,170 @@ Oscillators:
     components: ["U102"]
     rare: yes
   - id: 391087-01
-    part: "IC, SMD, Quad Line Driver, 1488 SOIC"
+    part: "1488, Quad Line Driver"
     package: "SOIC14N"
     quantity: 1
     components: ["U304"]
   - id: 391086-01
-    part: "IC, SMD, Quad Line Receiver, 1489 SOIC"
+    part: "1489, Quad Line Receiver"
     package: "SOIC14N"
     quantity: 1
     components: ["U305"]
   - id: 391421-01
-    part: "LM-385-DR-1.2V Voltage Reference, 1.2V, SO-8"
+    part: "LM-385-DR-1.2V Voltage Reference, 1.2V"
     package: "SOIC8N"
     quantity: 1
     components: ["D507"]
   - id: 901527-03
-    part: "IC, Voltage Regulator, Fixed Output, 7905"
+    part: "7905, Voltage Regulator, Fixed Output"
     package: "TO220"
     quantity: 1
     components: ["U198"]
   - id: 391478-01
-    part: "IC, PAL, 22V10-10"
+    part: "PAL, 22V10-10"
     package: "PLCC28"
     quantity: 1
     components: ["U212"]
     remark: "CAS Gen, Content: 391392-03"
     rare: yes
   - id: 391477-01
-    part: "IC, PAL, 16L8-10"
+    part: "PAL, 16L8-10"
     package: "PLCC20"
     quantity: 1
     components: ["U213"]
     remark: "Chip RAM Ctrl, Content: 391412-01"
     rare: yes
   - id: 391476-01
-    part: "IC, PAL, 16R4-15"
+    part: "PAL, 16R4-15"
     package: "PLCC20"
     quantity: 1
     components: ["U701"]
     remark: "Arb & int., Content: 391359-04"
     rare: yes
   - id: 391475-01
-    part: "IC, PAL, 16L8-10"
+    part: "PAL, 16L8-10"
     package: "PLCC20"
     quantity: 1
     components: ["U714"]
     remark: "Zorro Decode, Content: 391199-03"
     rare: yes
   - id: 391406-01
-    part: "IC, PAL, 16L8-15"
+    part: "PAL, 16L8-15"
     package: "PLCC20"
     quantity: 1
     components: ["U901"]
     remark: "IDE Decode, Content: 391199-04"
     rare: yes
   - id: 391405-01
-    part: "IC, PAL, 16R6-15"
+    part: "PAL, 16R6-15"
     package: "PLCC20"
     quantity: 1
     components: ["U902"]
     remark: "IDE State, Content: 391403-02"
     rare: yes
   - id: 391276-01
-    part: "7406, SOIC package"
+    part: "7406"
     package: "SOIC14N"
     quantity: 1
     components: ["U131"]
   - id: 391188-01
-    part: "7407, SOIC package"
+    part: "7407"
     package: "SOIC14N"
     quantity: 2
     components: ["U141", "U311"]
   - id: 391499-01
-    part: "74F521, SOIC package"
+    part: "74F521"
     package: "SOIC20W"
     quantity: 1
     components: ["U145"]
   - id: 391088-01
-    part: "74F04, SOIC package"
+    part: "74F04"
     package: "SOIC14N"
     quantity: 1
     components: ["U215"]
   - id: 391183-01
-    part: "74F08, SOIC package"
+    part: "74F08"
     package: "SOIC14N"
     quantity: 2
     components: ["U130", "U710"]
   - id: 391175-01
-    part: "74F32, SOIC package"
+    part: "74F32"
     package: "SOIC14N"
     quantity: 1
     components: ["U140"]
   - id: 391320-01
-    part: "74F74, SOIC package"
+    part: "74F74"
     package: "SOIC14N"
     quantity: 2
     components: ["U106", "U459"]
   - id: 391325-01
-    part: "74F86, SOIC package"
+    part: "74F86"
     package: "SOIC14N"
     quantity: 1
     components: ["U711"]
   - id: 391375-01
-    part: "74F245, SOIC package"
+    part: "74F245"
     package: "SOIC20W"
     quantity: 7
     components: ["U704", "U707", "U708", "U891-U894"]
   - id: 391481-01
-    part: "74F841, SOIC package"
+    part: "74F841"
     package: "SOIC24W"
     quantity: 1
     components: ["U216"]
     rare: yes
   - id: 391374-02
-    part: "74FCT646T, SOIC package"
+    part: "74FCT646T"
     package: "SOIC24W"
     quantity: 3
     components: ["U702", "U703", "U706"]
   - id: 391480-01
-    part: "74HCT166, SOIC package"
+    part: "74HCT166"
     package: "SOIC16N"
     quantity: 2
     components: ["U975", "U976"]
   - id: 391400-01
-    part: "74FCT244T DIP package"
+    part: "74FCT244T"
     package: "DIP20"
     quantity: 1
     components: ["U103"]
   - id: 391474-01
-    part: "74FCT245T, SOIC package"
+    part: "74FCT245T"
     package: "SOIC20W"
     quantity: 4
     components: ["U455-U458"]
   - id: 391377-01
-    part: "74HCT174, SOIC package"
+    part: "74HCT174"
     package: "SOIC16N"
     quantity: 3
     components: ["U177", "U354", "U907"]
   - id: 391326-01
-    part: "74LS38, SOIC package"
+    part: "74LS38"
     package: "SOIC14N"
     quantity: 1
     components: ["U352"]
   - id: 391141-01
-    part: "74LS74A, SOIC package"
+    part: "74LS74A"
     package: "SOIC14N"
     quantity: 1
     components: ["U351"]
   - id: 391311-01
-    part: "74HC4066, SOIC package"
+    part: "74HC4066"
     package: "SOIC14N"
     quantity: 1
     components: ["U205"]
   - id: 391100-01
-    part: "74HCT245, SOIC package"
+    part: "74HCT245"
     package: "SOIC20W"
     quantity: 2
     components: ["U903", "U904"]
   - id: 391191-01
-    part: "74LS125A, SOIC package"
+    part: "74LS125A"
     package: "SOIC14N"
     quantity: 2
     components: ["U353", "U355"]
 
 Connectors:
-  - id: 390768-04
-    part: "Socket, 20 Pin .3 DIP20 machine pin"
-    quantity: 1
-    components: ["U103"]
-  - id: 904150-06
-    part: "Socket, 40 Pin .6 DIP40"
-    quantity: 2
-    components: ["U175", "U176"]
   - id: 391368-01
     part: "Socket, 72 Pin 22.5 Deg. SIMM"
     quantity: 5
@@ -644,18 +644,61 @@ Diverse:
     quantity: 1
     components: ["F175"]
   - id: 390719-01
-    part: "Socket, single pin"
-    package: ".040 hole"
-    quantity: 2
+    part: "Socket, single pin, .040 hole"
+    quantity: 8
     components: ["U104", "U154"]
   - id: 380393-02
     part: "Battery, NICAD, Rechargeable, 3.6V"
     quantity: 1
     components: ["BT176"]
-    remark: "See README.md"
+    remark: "Not recommended, see README"
   - id: 391138-05
-    part: "Inductor, SM, 47uH"
+    part: "Inductor, 47µH"
     package: "1210"
     quantity: 1
     components: ["L500"]
-    remark: "Can be left out on Acill boards"
+    remark: "L500 can be left out on Acill boards"
+
+Optionals:
+  - part: "Socket, DIP18"
+    package: "DIP18"
+    quantity: 1
+    components: ["U178"]
+    remark: "RTC"
+  - id: 390768-04
+    part: "Socket, DIP20, machine pin"
+    package: "DIP20"
+    quantity: 1
+    components: ["U103"]
+    remark: "74FCT244T"
+  - id: 904150-06
+    part: "Socket, DIP40"
+    package: "DIP40"
+    quantity: 2
+    components: ["U175", "U176"]
+    remark: "ROMs"
+  - part: "Socket, PLCC20, without location post"
+    package: "PLCC20"
+    quantity: 5
+    components: ["U213", "U701", "U714", "U901", "U902"]
+    remark: "PAL"
+  - part: "Socket, PLCC28, without location post"
+    package: "PLCC28"
+    quantity: 1
+    components: ["U212"]
+    remark: "PAL"
+  - part: "Socket, PLCC44, with location post"
+    package: "PLCC44"
+    quantity: 3
+    components: ["U300", "U350", "U460"]
+    remark: "CIAs, Video DAC"
+  - part: "Socket, PLCC52, with location post"
+    package: "PLCC52"
+    quantity: 1
+    components: ["U400"]
+    remark: "Paula"
+  - part: "Socket, PLCC84, with location post"
+    package: "PLCC84"
+    quantity: 5
+    components: ["U150", "U211", "U450", "U700", "U890"]
+    remark: "Alice, Lisa, Fat Gary, Fat Ramsey, Fat Buster"

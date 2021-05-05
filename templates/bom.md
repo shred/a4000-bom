@@ -7,4 +7,6 @@
 
 **Rare parts are bold printed.**
 
+This list is provided "as is" and without warranties of any kind either expressed or implied.
+
 Version: {{ version }} ({{ date }})
