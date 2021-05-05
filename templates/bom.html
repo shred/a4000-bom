@@ -33,7 +33,7 @@ th {
 th.c-id {
     width: 6rem;
 }
-th.c-amt {
+th.c-qty {
     width: 3rem;
 }
 th.c-pkg {
@@ -42,7 +42,7 @@ th.c-pkg {
 td {
     vertical-align: top;
 }
-td.c-amt {
+td.c-qty {
     text-align: right;
 }
 td.c-cmp {
@@ -63,7 +63,7 @@ td.c-cmp {
 <table>
 <thead>
     <th class="c-id">Part ID</th>
-    <th class="c-amt">Amt</th>
+    <th class="c-qty">Qty</th>
     <th class="c-prt">Part</th>
     <th class="c-pkg">Package</th>
     <th class="c-rem">Remark</th>
@@ -75,7 +75,7 @@ td.c-cmp {
 {% for p in parts %}
 <tr class="{% if p.rare %}rare{% endif %}">
     <td class="c-id">{{ p.id|e }}</td>
-    <td class="c-amt">{{ p.amount|e }}</td>
+    <td class="c-qty">{{ p.quantity|e }}</td>
     <td class="c-prt">{{ p.part|e }}</td>
     <td class="c-pkg">{{ p.package|e }}</td>
     <td class="c-rem">{{ p.remark|e }}</td>
