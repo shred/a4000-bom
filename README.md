@@ -42,7 +42,7 @@ This list also includes regular electrolytic capacitors, which may also leak ove
 
 This list is meant to be a community work. Our goal is to have a canonical list that people can rely on when ordering parts for building an own Amiga 4000D mainboard.
 
-However, this list may not be free of errors. If you have found one, please [open an issue]() or send a patch.
+However, this list may not be free of errors. If you have found one, please [open an issue](https://github.com/shred/a4000-bom/issues) or send a patch.
 
 ## Disclaimer
 
