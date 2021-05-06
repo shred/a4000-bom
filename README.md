@@ -4,8 +4,8 @@ This project contains the Bill of Material for building an own **Amiga 4000 Desk
 
 **IMPORTANT:** This project is still **work in progress** at the moment. Please do not rely solely on this list, but compare it with other bill of materials.
 
-* [Read as self-contained HTML](bom/a4000-bom.html)
-* [Read inline as Markdown](bom/a4000-bom.md)
+* [Read as self-contained HTML](docs/a4000-bom.html)
+* [Read inline as Markdown](docs/a4000-bom.md)
 
 ## Read Me First!
 
@@ -65,7 +65,7 @@ The following sources have been used:
 
 The main file of this project is the `a4000-rb-bom.yml` file. It contains the bill of material in a file format that can be easily diffed by git, and can also easily read by programs.
 
-A Python tool called `convert.py` generates human readable files from that. You can find them in the `bom` directory. The converter needs [PyYAML](https://pypi.org/project/PyYAML/) and [Jinja2](https://pypi.org/project/Jinja2/) installed.
+A Python tool called `convert.py` generates human readable files from that. You can find them in the `docs` directory. The converter needs [PyYAML](https://pypi.org/project/PyYAML/) and [Jinja2](https://pypi.org/project/Jinja2/) installed.
 
 ## Copyright
 

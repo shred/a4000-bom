@@ -15,8 +15,8 @@ with open("a4000-rb-bom.yml", 'r') as stream:
         'bom': raw[1],
     }
 
-with open('bom/a4000-bom.md', 'w') as out:
+with open('docs/a4000-bom.md', 'w') as out:
     out.write(mdTemplate.render(data))
 
-with open('bom/a4000-bom.html', 'w') as out:
+with open('docs/a4000-bom.html', 'w') as out:
     out.write(htmlTemplate.render(data))
