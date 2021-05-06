@@ -66,6 +66,6 @@ The main file of this project is the `a4000-rb-bom.yml` file. It contains the bi
 
 A Python tool called `convert.py` generates human readable files from that. You can find them in the `docs` directory. The converter needs [PyYAML](https://pypi.org/project/PyYAML/) and [Jinja2](https://pypi.org/project/Jinja2/) installed.
 
-## Copyright
+## License
 
-This project is released under the terms of the [Creative Commons BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This project is distributed under the terms of [GNU General Public License (GPLv3)](https://www.gnu.org/licenses/gpl-3.0.en.html#content).
