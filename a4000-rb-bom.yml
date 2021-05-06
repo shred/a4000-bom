@@ -92,14 +92,15 @@ Capacitors:
     quantity: 1
     components: ["C181"]
   - id: 390101-03
-    part: "470µF 16V - Aluminum electrolytic"
+    part: "470µF 16V - Aluminum electrolytic, radial"
     quantity: 2
-    package: "Radial"
+    package: "TH 5mm"
     components: ["C185", "C400A"]
   - id: 251029-06
     part: "22-47pF - Trimmer, Ceramic"
     quantity: 1
     components: ["VC190"]
+    package: "TH 5mm"
     rare: yes
 
 Transistors:
@@ -115,6 +116,7 @@ Transistors:
     components: ["Q400"]
   - id: 391145-01
     part: "MPF102 - N-Channel JFET"
+    package: "SOT23"
     quantity: 2
     components: ["Q430", "Q440"]
 
@@ -313,73 +315,75 @@ Oscillators:
 
 "Integrated Circuits":
   - id: 391513-02
-    part: "Kickstart ROM \"Low\", 150ns"
+    part: "HN62402, 150ns, Kickstart ROM \"Low\""
     package: "DIP40"
     quantity: 1
     components: ["U176"]
   - id: 391514-02
-    part: "Kickstart ROM \"High\", 150ns"
+    part: "HN62402, 150ns, Kickstart ROM \"High\""
     package: "DIP40"
     quantity: 1
     components: ["U175"]
   - id: 391010-01
-    part: "CSG, 8374 \"Alice\""
+    part: "8374 - Alice"
     package: "PLCC84"
     quantity: 1
     components: ["U211"]
     rare: yes
   - id: 391227-01
-    part: "CSG, 4203 \"Lisa\""
+    part: "4203 - Lisa"
     package: "PLCC84"
     quantity: 1
     components: ["U450"]
     rare: yes
   - id: 391077-01
-    part: "8364R7 \"Paula\""
+    part: "8364R7 - Paula"
     package: "PLCC52"
     quantity: 1
     components: ["U400"]
     rare: yes
   - id: 391078-02
-    part: "LSI, CIA 8520A-1"
+    part: "8520 - CIA"
     package: "PLCC44"
     quantity: 2
     components: ["U300", "U350"]
     rare: yes
   - id: 390525-01
-    part: "Ricoh, Real Time Clock, RP5C01"
+    part: "Ricoh RP5C01, Real Time Clock"
     package: "DIP18"
     quantity: 1
     components: ["U178"]
     rare: yes
   - id: 391494-01
-    part: "VideoDAC, Triple 8-BIT, ADV7120"
+    part: "ADV7120KP30, VideoDAC, Triple 8-Bit, 30 MHz"
     package: "PLCC44"
     quantity: 1
     components: ["U460"]
+    rare: yes
   - id: 390540-02
-    part: "LSI, FOO8B \"Fat Gary\""
+    part: "Fat Gary"
     package: "PLCC84"
     quantity: 1
     components: ["U150"]
     rare: yes
   - id: 390541-07
-    part: "F012G \"Fat Ramsey\""
+    part: "Ramsey"
     package: "PLCC84"
     quantity: 1
     components: ["U890"]
     rare: yes
   - id: 391380-01
-    part: "\"Bridgette\""
+    part: "Bridgette"
     package: "PQFP100"
     quantity: 1
     components: ["U250"]
     rare: yes
   - id: 390539-09
-    part: "LSI, F0131 \"Fat Buster\""
+    part: "Fat Buster"
     package: "PLCC84"
     quantity: 1
     components: ["U700"]
+    remark: "Should be latest revision 11"
     rare: yes
   - id: 391473-01
     part: "LM833, Dual Op Amp"
@@ -460,151 +464,151 @@ Oscillators:
     remark: "IDE State, Content: 391403-02"
     rare: yes
   - id: 391276-01
-    part: "7406"
+    part: "7406, Hex Open-Collector Inverter Buffer"
     package: "SOIC14N"
     quantity: 1
     components: ["U131"]
   - id: 391188-01
-    part: "7407"
+    part: "7407, Hex Open-Collector Buffer"
     package: "SOIC14N"
     quantity: 2
     components: ["U141", "U311"]
   - id: 391499-01
-    part: "74F521"
+    part: "74F521, 8-Bit Identity Comparator"
     package: "SOIC20W"
     quantity: 1
     components: ["U145"]
   - id: 391088-01
-    part: "74F04"
+    part: "74F04, Hex Inverter"
     package: "SOIC14N"
     quantity: 1
     components: ["U215"]
   - id: 391183-01
-    part: "74F08"
+    part: "74F08, Quadruple 2-Input Positive-And Gate"
     package: "SOIC14N"
     quantity: 2
     components: ["U130", "U710"]
   - id: 391175-01
-    part: "74F32"
+    part: "74F32, Quadruple 2-Input Positive-Or Gate"
     package: "SOIC14N"
     quantity: 1
     components: ["U140"]
   - id: 391320-01
-    part: "74F74"
+    part: "74F74, Dual Flip-Flop with Clear and Preset"
     package: "SOIC14N"
     quantity: 2
     components: ["U106", "U459"]
   - id: 391325-01
-    part: "74F86"
+    part: "74F86, Quadruple 2-Input Exclusive-Or Gate"
     package: "SOIC14N"
     quantity: 1
     components: ["U711"]
   - id: 391375-01
-    part: "74F245"
+    part: "74F245, Octal Tri-State Bus Transceiver"
     package: "SOIC20W"
     quantity: 7
     components: ["U704", "U707", "U708", "U891", "U892", "U893", "U894"]
   - id: 391481-01
-    part: "74F841"
+    part: "74F841, 10-Bit Transparent Latch"
     package: "SOIC24W"
     quantity: 1
     components: ["U216"]
     rare: yes
   - id: 391374-02
-    part: "74FCT646T"
+    part: "74FCT646T, 8-Bit Registered Tri-State Transceiver"
     package: "SOIC24W"
     quantity: 3
     components: ["U702", "U703", "U706"]
   - id: 391480-01
-    part: "74HCT166"
+    part: "74HCT166, 8-Bit Parallel-In/Serial-Out Shift Register"
     package: "SOIC16N"
     quantity: 2
     components: ["U975", "U976"]
   - id: 391400-01
-    part: "74FCT244T"
+    part: "74FCT244T, 8-Bit Tri-State Buffer"
     package: "DIP20"
     quantity: 1
     components: ["U103"]
   - id: 391474-01
-    part: "74FCT245"
+    part: "74FCT245, 8-Bit Tri-State Transceiver"
     package: "SOIC20W"
     quantity: 4
     components: ["U455", "U456", "U457", "U458"]
   - id: 391377-01
-    part: "74HCT174"
+    part: "74HCT174, Hex D-type Flip-Flop with Reset"
     package: "SOIC16N"
     quantity: 3
     components: ["U177", "U354", "U907"]
   - id: 391326-01
-    part: "74LS38"
+    part: "74LS38, Quadruple Positive-Nand with Open-Collector"
     package: "SOIC14N"
     quantity: 1
     components: ["U352"]
   - id: 391141-01
-    part: "74LS74A"
+    part: "74LS74A, Dual D-Type Flip-Flop with Preset and Clear"
     package: "SOIC14N"
     quantity: 1
     components: ["U351"]
   - id: 391311-01
-    part: "74HC4066"
+    part: "74HC4066, Quadruple Bilateral Analog Switch"
     package: "SOIC14N"
     quantity: 1
     components: ["U205"]
   - id: 391100-01
-    part: "74HCT245"
+    part: "74HCT245, Octal Tri-State Bus Transceiver"
     package: "SOIC20W"
     quantity: 2
     components: ["U903", "U904"]
   - id: 391191-01
-    part: "74LS125A"
+    part: "74LS125A, Quadruple Tri-State Bus Buffer"
     package: "SOIC14N"
     quantity: 2
     components: ["U353", "U355"]
 
 Connectors:
   - id: 391368-01
-    part: "Socket, 72 Pin 22.5 Deg. SIMM"
+    part: "SIMM Socket, 72 Pin, 22.5 Degrees"
     quantity: 5
     components: ["U261", "U850", "U851", "U852", "U853"]
   - id: 903345-06
-    part: "12 DIL .1\" x .1' Header"
+    part: "12 Pin DIL Header"
     quantity: 1
     components: ["J975"]
   - id: 903345-17
-    part: "34 DIL .1' x .1\" Header"
+    part: "34 Pin DIL Header"
     quantity: 1
     components: ["CN351"]
   - id: 903345-20
-    part: "40 DIL .1\" x .1\" Header"
+    part: "40 Pin DIL Header"
     quantity: 1
     components: ["CN900"]
   - id: 903326-02
-    part: "2 x .1\" SIL"
+    part: "2 Pin SIL Header"
     quantity: 2
     components: ["J351", "J850"]
   - id: 903326-03
-    part: "3 x .1\" SIL"
+    part: "3 Pin SIL Header"
     quantity: 15
     components: ["CN200", "CN302", "CN303", "CN404", "J100", "J104", "J151", "J212", "J213", "J214", "J352", "J500", "J501", "J502", "J852"]
   - id: 390242-01
-    part: "DB9 Male"
+    part: "D-Sub DB-9 Male"
     quantity: 2
     components: ["CN975", "CN976"]
     remark: "Mouse, Joystick"
   - id: 390242-03
-    part: "DB23 Male"
+    part: "D-Sub DB-23 Male"
     quantity: 1
     components: ["CN450"]
     remark: "Video"
     rare: yes
   - id: 390241-03
-    part: "DB23 Female"
+    part: "D-Sub DB-23 Female"
     quantity: 1
     components: ["CN352"]
     remark: "Floppy"
     rare: yes
   - id: 390625-04
-    part: "Stacked DB25 Male/Female"
+    part: "Stacked D-Sub DB-25 Male/Female"
     quantity: 1
     components: ["CN300", "CN350"]
     remark: "Parallel, Serial (missionary)"
@@ -619,7 +623,7 @@ Connectors:
     components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
     remark: "Shunts"
   - id: 903349-01
-    part: "6 Pin Connector"
+    part: "Mate-N-Lok Socket Header, 6 Circuit"
     quantity: 1
     components: ["CN160"]
     remark: "Power In"
@@ -653,7 +657,7 @@ Diverse:
     quantity: 8
     components: ["U104", "U154"]
   - id: 380393-02
-    part: "Battery, NICAD, Rechargeable, 3.6V"
+    part: "Battery, NiCd 3.6V 680mAh 3/60DK"
     quantity: 1
     components: ["BT176"]
     remark: "Not recommended, see README"
@@ -671,7 +675,7 @@ Optionals:
     components: ["U178"]
     remark: "RTC"
   - id: 390768-04
-    part: "Socket, DIP20, machine pin"
+    part: "Socket, DIP20"
     package: "DIP20"
     quantity: 1
     components: ["U103"]
