@@ -5,7 +5,6 @@ This project contains the Bill of Material for building an own **Amiga 4000 Desk
 **IMPORTANT:** This project is still **work in progress** at the moment. Please do not rely solely on this list, but compare it with other bill of materials.
 
 * [Read as self-contained HTML](docs/a4000-bom.html)
-* [Read inline as Markdown](docs/a4000-bom.md)
 
 ## Read Me First!
 
