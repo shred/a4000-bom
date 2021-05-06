@@ -1,7 +1,7 @@
 # A4000D Rev B Bill of Material
 ---
-version: 0.3
-date: 2021-05-05
+version: 0.4
+date: 2021-05-06
 ---
 
 Board:
@@ -19,8 +19,8 @@ Capacitors:
   - id: 390818-04
     part: "47pF - MLC, NPO"
     package: "1206"
-    quantity: 29
-    components: ["EC350", "EC351", "EC352", "EC353", "EC354", "EC355", "EC356", "EC357", "EC358", "EC359", "EC360", "EC361", "EC362", "EC363", "EC364", "EC976", "EC977", "EC978", "EC979", "EC980", "EC981", "EC982", "EC983", "EC984", "EC985", "EC986", "EC987", "EC988", "EC989"]
+    quantity: 15
+    components: ["EC350", "EC351", "EC352", "EC353", "EC354", "EC355", "EC356", "EC357", "EC358", "EC359", "EC360", "EC361", "EC362", "EC363", "EC364"]
   - id: 390818-05
     part: "56pF - MLC, NPO"
     package: "1206"
@@ -29,8 +29,8 @@ Capacitors:
   - id: 390818-06
     part: "100pF - MLC, NPO"
     package: "1206"
-    quantity: 44
-    components: ["EC182", "EC183", "EC184", "EC300", "EC301", "EC302", "EC303", "EC304", "EC305", "EC306", "EC307", "EC308", "EC309", "EC365", "EC366", "EC367", "EC368", "EC369", "EC370", "EC371", "EC372", "EC373", "EC374", "EC375", "EC376", "EC377", "EC378", "EC379", "EC410", "EC411", "EC451", "EC452", "EC453", "EC454", "EC455", "EC456", "EC457", "EC458", "EC459", "EC460", "EC461", "EC462", "EC463", "EC464"]
+    quantity: 58
+    components: ["EC182", "EC183", "EC184", "EC300", "EC301", "EC302", "EC303", "EC304", "EC305", "EC306", "EC307", "EC308", "EC309", "EC365", "EC366", "EC367", "EC368", "EC369", "EC370", "EC371", "EC372", "EC373", "EC374", "EC375", "EC376", "EC377", "EC378", "EC379", "EC410", "EC411", "EC451", "EC452", "EC453", "EC454", "EC455", "EC456", "EC457", "EC458", "EC459", "EC460", "EC461", "EC462", "EC463", "EC464", "EC976", "EC977", "EC978", "EC979", "EC980", "EC981", "EC982", "EC983", "EC984", "EC985", "EC986", "EC987", "EC988", "EC989"]
   - id: 390818-10
     part: "330pF - MLC, NPO"
     package: "1206"
@@ -97,7 +97,7 @@ Capacitors:
     package: "Radial"
     components: ["C185", "C400A"]
   - id: 251029-06
-    part: "6.8-45pF - Trimmer, Ceramic"
+    part: "22-47pF - Trimmer, Ceramic"
     quantity: 1
     components: ["VC190"]
     rare: yes
@@ -114,7 +114,7 @@ Transistors:
     quantity: 1
     components: ["Q400"]
   - id: 391145-01
-    part: "MMBF102L - N-Channel JFET"
+    part: "MPF102 - N-Channel JFET"
     quantity: 2
     components: ["Q430", "Q440"]
 
@@ -134,8 +134,8 @@ Ferrites:
   - id: 391559-01
     part: "Filter, Ferrite"
     package: "1812"
-    quantity: 15
-    components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB478", "FB479", "FB480", "FB975"]
+    quantity: 12
+    components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
   - id: 391092-03
     part: "Filter, Ferrite"
     package: "1206"
@@ -237,8 +237,8 @@ Resistors:
   - id: 310026-46
     part: "3.3kΩ - 1/8W, 5%"
     package: "1206"
-    quantity: 3
-    components: ["R151", "R360", "R361"]
+    quantity: 8
+    components: ["R151", "R355", "R356", "R357", "R358", "R359", "R360", "R361"]
   - id: 310026-08
     part: "4.7kΩ - 1/8W, 5%"
     package: "1206"
@@ -247,8 +247,8 @@ Resistors:
   - id: 310026-17
     part: "10kΩ - 1/8W, 5%"
     package: "1206"
-    quantity: 21
-    components: ["R208", "R305", "R306", "R355", "R356", "R357", "R358", "R359", "R403A", "R403B", "R403E", "R403F", "R406", "R408", "R431", "R432", "R441", "R442", "R457", "R465", "R514"]
+    quantity: 16
+    components: ["R208", "R305", "R306", "R403A", "R403B", "R403E", "R403F", "R406", "R408", "R431", "R432", "R441", "R442", "R456", "R457", "R514"]
   - id: 310026-55
     part: "11kΩ - 1/8W, 5%"
     package: "1206"
@@ -526,7 +526,7 @@ Oscillators:
     quantity: 1
     components: ["U103"]
   - id: 391474-01
-    part: "74FCT245T"
+    part: "74FCT245"
     package: "SOIC20W"
     quantity: 4
     components: ["U455", "U456", "U457", "U458"]
@@ -615,8 +615,8 @@ Connectors:
     components: ["CN175"]
   - id: 390043-01
     part: "Shorting Bars"
-    quantity: 10
-    components: ["J100", "J104", "J120", "J151", "J152", "J212", "J214", "J352", "J850", "J852"]
+    quantity: 13
+    components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
     remark: "Shunts"
   - id: 903349-01
     part: "6 Pin Connector"
