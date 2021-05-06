@@ -16,92 +16,110 @@ Capacitors:
     package: "1206"
     quantity: 2
     components: ["C179", "C485"]
+    mouser: {id: "80-C1206C220J5G"}
   - id: 390818-04
     part: "47pF - MLC, NPO"
     package: "1206"
     quantity: 15
     components: ["EC350", "EC351", "EC352", "EC353", "EC354", "EC355", "EC356", "EC357", "EC358", "EC359", "EC360", "EC361", "EC362", "EC363", "EC364"]
+    mouser: {id: "80-C1206C470J1G"}
   - id: 390818-05
     part: "56pF - MLC, NPO"
     package: "1206"
     quantity: 1
     components: ["C178"]
+    mouser: {id: "80-C1206C560J1G"}
   - id: 390818-06
     part: "100pF - MLC, NPO"
     package: "1206"
     quantity: 58
     components: ["EC182", "EC183", "EC184", "EC300", "EC301", "EC302", "EC303", "EC304", "EC305", "EC306", "EC307", "EC308", "EC309", "EC365", "EC366", "EC367", "EC368", "EC369", "EC370", "EC371", "EC372", "EC373", "EC374", "EC375", "EC376", "EC377", "EC378", "EC379", "EC410", "EC411", "EC451", "EC452", "EC453", "EC454", "EC455", "EC456", "EC457", "EC458", "EC459", "EC460", "EC461", "EC462", "EC463", "EC464", "EC976", "EC977", "EC978", "EC979", "EC980", "EC981", "EC982", "EC983", "EC984", "EC985", "EC986", "EC987", "EC988", "EC989"]
+    mouser: {id: "80-C1206C101JDG"}
   - id: 390818-10
     part: "330pF - MLC, NPO"
     package: "1206"
     quantity: 2
     components: ["C446", "C447"]
+    mouser: {id: "80-C1206C331JCG"}
   - id: 390853-08
     part: "3900pF - MLC, X7R"
     package: "1206"
     quantity: 2
     components: ["C432", "C442"]
+    mouser: {id: "80-C1206C392K5RACTM"}
   - id: 390853-09
     part: "6800pF - MLC, X7R"
     package: "1206"
     quantity: 2
     components: ["C431", "C441"]
+    mouser: {id: "80-C1206C682K5R"}
   - id: 390853-01
     part: "0.01µF - MLC, X7R"
     package: "1206"
     quantity: 9
     components: ["C104", "C154B", "C186", "C193", "C195", "C409", "C460D", "C460E", "C460F"]
+    mouser: {id: "80-C1206C103KAREAUTO"}
   - id: 390853-04
     part: "0.047µF - MLC, X7R"
     package: "1206"
     quantity: 6
     components: ["C411", "C412", "C413", "C414", "C430", "C440"]
+    mouser: {id: "80-C1206C473KMRECTU"}
   - id: 310027-02
     part: "0.1µF - Ceramic"
     package: "1206"
     quantity: 64
     components: ["C102", "C103", "C106", "C130", "C131", "C140", "C141", "C145", "C152", "C154A", "C177", "C201", "C205", "C211A", "C211B", "C211C", "C212", "C213", "C215", "C216", "C250A", "C250C", "C300", "C305", "C311", "C350", "C351", "C352", "C353", "C354", "C355", "C400B", "C402A", "C402B", "C455", "C455B", "C456", "C456B", "C457", "C457B", "C458", "C458B", "C459", "C460A", "C460B", "C460C", "C500", "C511", "C512", "C513", "C860", "C890", "C891", "C892", "C893", "C894", "C901", "C902", "C903", "C904", "C907", "C975", "C976", "C990"]
+    mouser: {id: "80-C1206C104K5R"}
   - id: 390797-02
     part: "0.22µF - Ceramic, Z5U"
     package: "1210"
     quantity: 19
     components: ["C150", "C175", "C176", "C199", "C403", "C405", "C406", "C450", "C700", "C701", "C702", "C703", "C704", "C706", "C707", "C708", "C710", "C711", "C714"]
+    mouser: {id: "80-C1210C224M5U"}
   - id: 391097-06
     part: "4.7µF 25V - Aluminum electrolytic"
     package: "A"
     quantity: 2
     components: ["C200", "C404"]
+    mouser: {id: "667-EEE-HD1V4R7AR"}
   - id: 391097-07
     part: "10µF 25V - Aluminum electrolytic"
     package: "C"
     quantity: 1
     components: ["C460G"]
+    mouser: {id: "667-EEH-ZA1H100R"}
   - id: 391097-03
     part: "22µF 16V - Aluminum electrolytic"
     package: "C"
     quantity: 5
     components: ["C198", "C317", "C318", "C433", "C443"]
+    mouser: {id: "667-EEH-ZA1V220R"}
   - id: 391097-04
     part: "47µF 16V - Aluminum electrolytic"
     package: "D"
     quantity: 10
     components: ["C187", "C188", "C189", "C190", "C191", "C192", "C194", "C196", "C407", "C408"]
+    mouser: {id: "667-EEH-ZA1V470P"}
   - id: 391097-01
     part: "100µF 6.3V - Aluminum electrolytic"
     package: "D"
     quantity: 1
     components: ["C181"]
+    mouser: {id: "667-EEH-ZA1E101XP"}
   - id: 390101-03
     part: "470µF 16V - Aluminum electrolytic, radial"
     quantity: 2
     package: "TH 5mm"
     components: ["C185", "C400A"]
+    mouser: {id: "667-EEU-EB1E471"}
   - id: 251029-06
     part: "22-47pF - Trimmer, Ceramic"
     quantity: 1
     components: ["VC190"]
     package: "TH 5mm"
     rare: yes
+    mouser: {id: "659-GKG60015"}
 
 Transistors:
   - id: 391121-01
@@ -109,16 +127,19 @@ Transistors:
     package: "SOT23"
     quantity: 2
     components: ["Q300", "Q901"]
+    mouser: {id: "833-MMBT3904-TP"}
   - id: 391122-01
     part: "2N3906 - PNP"
     package: "SOT23"
     quantity: 1
     components: ["Q400"]
+    mouser: {id: "863-MMBT3906LT1G"}
   - id: 391145-01
     part: "MPF102 - N-Channel JFET"
     package: "SOT23"
     quantity: 2
     components: ["Q430", "Q440"]
+    mouser: {id: "512-MMBFJ113"}
 
 Diodes:
   - id: 391327-01
@@ -131,6 +152,7 @@ Diodes:
     package: "SOT23"
     quantity: 3
     components: ["D177", "D178", "D300"]
+    mouser: {id: "512-MMBD4148CC"}
 
 Ferrites:
   - id: 391559-01
@@ -138,11 +160,13 @@ Ferrites:
     package: "1812"
     quantity: 12
     components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
+    mouser: {id: "623-2518065007Y6"}
   - id: 391092-03
     part: "Filter, Ferrite"
     package: "1206"
     quantity: 17
     components: ["ER976", "ER977", "ER978", "ER979", "ER980", "ER981", "ER982", "ER983", "ER984", "ER985", "ER986", "ER987", "ER988", "ER989", "FB410", "FB411", "FB710"]
+    mouser: {id: "623-2512061517Y3"}
 
 Resistors:
   - id: 391093-01
@@ -150,142 +174,170 @@ Resistors:
     package: "2512"
     quantity: 1
     components: ["R400"]
+    mouser: {id: "71-CRCW2512-1-E3"}
   - id: 391093-07
     part: "20Ω - 1W, 5%"
     package: "2512"
     quantity: 2
     components: ["R176", "R177"]
+    mouser: {id: "71-CRCW2512J-20-E3"}
   - id: 391093-04
     part: "47Ω - 1W, 5%"
     package: "2512"
     quantity: 1
     components: ["R383"]
+    mouser: {id: "71-CRCW251247R0FKEGH"}
   - id: 310026-45
     part: "1Ω - 1/8W, 5%"
     package: "1206"
     quantity: 3
     components: ["R403", "R404", "R465"]
     remark: "R465 must be mounted on Acill boards"
+    mouser: {id: "667-ERJ-U08F1R00V"}
   - id: 310026-24
     part: "120Ω - 1/8W, 5%"
     package: "1206"
     quantity: 1
     components: ["R311"]
+    mouser: {id: "667-ERJ-8ENF1200V"}
   - id: 310026-43
     part: "33Ω - 1/8W, 5%"
     package: "1206"
     quantity: 37
     components: ["R104", "R211", "R231", "R232", "R233", "R234", "R235", "R236", "R237", "R240", "R241", "R242", "R243", "R244", "R245", "R246", "R247", "R248", "R881", "R882", "R883", "R884", "R885", "R886", "R887", "R888", "R889", "R890", "R891", "R892", "R893", "R894", "R895", "R896", "R897", "R898", "R899"]
+    mouser: {id: "667-ERJ-8ENF33R0V"}
   - id: 310026-01
     part: "47Ω - 1/8W, 5%"
     package: "1206"
     quantity: 92
     components: ["ER175", "ER176", "ER300", "ER301", "ER302", "ER303", "ER304", "ER305", "ER306", "ER307", "ER350", "ER351", "ER352", "ER353", "ER354", "ER355", "ER356", "ER357", "ER358", "ER359", "ER360", "ER361", "ER362", "ER363", "ER367", "ER368", "ER369", "ER370", "ER371", "ER372", "ER373", "ER374", "ER375", "ER376", "ER377", "ER378", "ER379", "ER453", "ER458", "ER459", "ER460", "ER461", "R101", "R102", "R103", "R105", "R106", "R111", "R112", "R161", "R162", "R165", "R166", "R167", "R168", "R169", "R170", "R212", "R213", "R214", "R215", "R216", "R217", "R218", "R222", "R223", "R451", "R458", "R458A", "R458B", "R459", "R460", "R461", "R462", "R463", "R464", "R500", "R501", "R502", "R503", "R504", "R505", "R506", "R507", "R508", "R513", "R660", "R661", "R701", "R702", "R703", "R704"]
+    mouser: {id: "667-ERJ-8ENF47R0V"}
   - id: 391509-04
     part: "47Ω - 1/10W, 5%"
     package: "0805"
     quantity: 24
     components: ["R455A", "R455B", "R455C", "R455D", "R455E", "R455F", "R455G", "R455H", "R456A", "R456B", "R456C", "R456D", "R456E", "R456F", "R456G", "R456H", "R457A", "R457B", "R457C", "R457D", "R457E", "R457F", "R457G", "R457H"]
+    mouser: {id: "667-ERJ-6GEYJ470V"}
   - id: 310026-12
     part: "68Ω - 1/8W, 5%"
     package: "1206"
     quantity: 25
     components: ["ER475", "R520", "R521", "R522", "R523", "R524", "R525", "R526", "R527", "R528", "R529", "R530", "R531", "R532", "R533", "R534", "R535", "R536", "R537", "R538", "R539", "R540", "R541", "R542", "R543"]
+    mouser: {id: "667-ERJ-8ENF68R0V"}
   - id: 310026-29
     part: "75Ω - 1/8W, 5%"
     package: "1206"
     quantity: 3
     components: ["R510", "R511", "R512"]
+    mouser: {id: "667-ERJ-8ENF75R0V"}
   - id: 310026-30
     part: "220Ω - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R301", "R307"]
+    mouser: {id: "667-ERJ-8ENF2200V"}
   - id: 310026-21
     part: "470Ω - 1/8W, 5%"
     package: "1206"
     quantity: 6
     components: ["R120", "R121", "R122", "R175", "R178", "R651"]
+    mouser: {id: "667-ERJ-8ENF4700V"}
   - id: 310026-56
     part: "680Ω - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R65", "R66"]
+    mouser: {id: "667-ERJ-8ENF6800V"}
   - id: 310026-57
     part: "750Ω - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R430", "R440"]
+    mouser: {id: "667-ERJ-8ENF7500V"}
   - id: 310026-07
     part: "1.0kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 66
     components: ["R67", "R68", "R70", "R71", "R72", "R73", "R125", "R126", "R127", "R128", "R171", "R172", "R173", "R181", "R182", "R239", "R249", "R302", "R371", "R381", "R382", "R401", "R402", "R433", "R434", "R443", "R444", "R545", "R546", "R547", "R548", "R612", "R613", "R614", "R615", "R616", "R617", "R618", "R619", "R620", "R621", "R622", "R623", "R624", "R625", "R626", "R630", "R631", "R632", "R633", "R634", "R635", "R639", "R708", "R709", "R710", "R711", "R712", "R720", "R721", "R722", "R861", "R862", "R911", "R912", "R975"]
+    mouser: {id: "667-ERJ-8ENF1001V"}
   - id: 310026-54
     part: "1.2kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 12
     components: ["R79", "R80", "R81", "R82", "R83", "R84", "R85", "R86", "R87", "R88", "R179", "R405"]
+    mouser: {id: "667-ERJ-8ENF1201V"}
   - id: 310026-51
     part: "2.4kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R403D", "R403H"]
+    mouser: {id: "667-ERJ-8ENF2401V"}
   - id: 310026-16
     part: "2.7kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 76
     components: ["R1", "R2", "R3", "R4", "R5", "R6", "R7", "R8", "R9", "R10", "R11", "R12", "R13", "R14", "R15", "R16", "R17", "R18", "R19", "R20", "R21", "R22", "R23", "R24", "R25", "R26", "R27", "R28", "R29", "R30", "R31", "R32", "R33", "R34", "R35", "R36", "R37", "R38", "R39", "R40", "R41", "R42", "R43", "R44", "R45", "R46", "R47", "R48", "R49", "R50", "R51", "R52", "R53", "R54", "R55", "R56", "R57", "R58", "R59", "R60", "R61", "R62", "R63", "R64", "R74", "R75", "R76", "R77", "R78", "R206", "R207", "R407", "R652", "R871", "R904", "R905"]
+    mouser: {id: "667-ERJ-8ENF2701V"}
   - id: 310026-46
     part: "3.3kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 8
     components: ["R151", "R355", "R356", "R357", "R358", "R359", "R360", "R361"]
+    mouser: {id: "667-ERJ-8ENF3301V"}
   - id: 310026-08
     part: "4.7kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 17
     components: ["R403C", "R403G", "R515", "R981", "R982", "R983", "R984", "R985", "R986", "R987", "R988", "R989", "R990", "R991", "R992", "R993", "R994"]
+    mouser: {id: "667-ERJ-8ENF4701V"}
   - id: 310026-17
     part: "10kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 16
     components: ["R208", "R305", "R306", "R403A", "R403B", "R403E", "R403F", "R406", "R408", "R431", "R432", "R441", "R442", "R456", "R457", "R514"]
+    mouser: {id: "667-ERJ-8ENF1002V"}
   - id: 310026-55
     part: "11kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R902", "R903"]
+    mouser: {id: "667-ERJ-8ENF1102V"}
   - id: 310026-31
     part: "100kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 1
     components: ["R180"]
+    mouser: {id: "667-ERJ-8ENF1003V"}
   - id: 310026-19
     part: "470kΩ - 1/8W, 5%"
     package: "1206"
     quantity: 2
     components: ["R435", "R445"]
+    mouser: {id: "667-ERJ-8ENF4703V"}
   - id: 391154-27
     part: "562Ω - 1/8W, 1%"
     package: "1206"
     quantity: 1
     components: ["R509"]
+    mouser: {id: "667-ERJ-8ENF5620V"}
   - id: 902412-14
     part: "1kΩ Resistor Network, 8 Element"
     package: "SIP9"
     quantity: 3
     components: ["RP461", "RP462", "RP463"]
+    mouser: {id: "652-4609X-1LF-1K"}
   - id: 902410-10
     part: "1kΩ Resistor Network, 9 Element"
     package: "SIP10"
     quantity: 1
     components: ["RP351"]
+    mouser: {id: "652-4610X-1LF-1K"}
   - id: 902442-35
     part: "10kΩ Resistor Network, 7 Element"
     package: "SIP8"
     quantity: 1
     components: ["RP176"]
+    mouser: {id: "652-4608X-1LF-10K"}
 
 Oscillators:
   - id: 325566-27
@@ -293,6 +345,7 @@ Oscillators:
     package: "DIP14"
     quantity: 1
     components: ["U104"]
+    mouser: {id: "520-TCF5000-X"}
   - id: 325566-14
     part: "28.63636 MHz Oscillator, metal"
     package: "DIP14"
@@ -312,6 +365,7 @@ Oscillators:
     package: "TH"
     quantity: 1
     components: ["Y176"]
+    mouser: {id: "815-AB26T-32.768KHZ"}
 
 "Integrated Circuits":
   - id: 391513-02
@@ -390,11 +444,13 @@ Oscillators:
     package: "SOIC8N"
     quantity: 1
     components: ["U403"]
+    mouser: {id: "511-LM833DT"}
   - id: 391103-01
     part: "LF347, Quad Op Amp, JFET"
     package: "SOIC14N"
     quantity: 1
     components: ["U402"]
+    mouser: {id: "511-LF347D-TR"}
   - id: 390555-01
     part: "Delay Line, 5 Tap, 25ns"
     package: "DIP14"
@@ -406,21 +462,25 @@ Oscillators:
     package: "SOIC14N"
     quantity: 1
     components: ["U304"]
+    mouser: {id: "595-SN75188DR"}
   - id: 391086-01
     part: "1489, Quad Line Receiver"
     package: "SOIC14N"
     quantity: 1
     components: ["U305"]
+    mouser: {id: "595-SN75189DR"}
   - id: 391421-01
     part: "LM-385-DR-1.2V Voltage Reference, 1.2V"
     package: "SOIC8N"
     quantity: 1
     components: ["D507"]
+    mouser: {id: "595-LM385D-1-2"}
   - id: 901527-03
     part: "7905, Voltage Regulator, Fixed Output"
     package: "TO220"
     quantity: 1
     components: ["U198"]
+    mouser: {id: "926-LM7905CT/NOPB"}
   - id: 391478-01
     part: "PAL, 22V10-10"
     package: "PLCC28"
@@ -428,6 +488,7 @@ Oscillators:
     components: ["U212"]
     remark: "CAS Gen, Content: 391392-03"
     rare: yes
+    mouser: {id: "556-ATF22V10C-10JU"}
   - id: 391477-01
     part: "PAL, 16L8-10"
     package: "PLCC20"
@@ -435,6 +496,7 @@ Oscillators:
     components: ["U213"]
     remark: "Chip RAM Ctrl, Content: 391412-01"
     rare: yes
+    mouser: {id: "556-AF16V8B10JU"}
   - id: 391476-01
     part: "PAL, 16R4-15"
     package: "PLCC20"
@@ -442,6 +504,7 @@ Oscillators:
     components: ["U701"]
     remark: "Arb & int., Content: 391359-04"
     rare: yes
+    mouser: {id: "556-AF16V8B10JU"}
   - id: 391475-01
     part: "PAL, 16L8-10"
     package: "PLCC20"
@@ -449,6 +512,7 @@ Oscillators:
     components: ["U714"]
     remark: "Zorro Decode, Content: 391199-03"
     rare: yes
+    mouser: {id: "556-AF16V8B10JU"}
   - id: 391406-01
     part: "PAL, 16L8-15"
     package: "PLCC20"
@@ -456,6 +520,7 @@ Oscillators:
     components: ["U901"]
     remark: "IDE Decode, Content: 391199-04"
     rare: yes
+    mouser: {id: "556-AF16V8B10JU"}
   - id: 391405-01
     part: "PAL, 16R6-15"
     package: "PLCC20"
@@ -463,138 +528,166 @@ Oscillators:
     components: ["U902"]
     remark: "IDE State, Content: 391403-02"
     rare: yes
+    mouser: {id: "556-AF16V8B10JU"}
   - id: 391276-01
     part: "7406, Hex Open-Collector Inverter Buffer"
     package: "SOIC14N"
     quantity: 1
     components: ["U131"]
+    mouser: {id: "595-SN7406DR"}
   - id: 391188-01
     part: "7407, Hex Open-Collector Buffer"
     package: "SOIC14N"
     quantity: 2
     components: ["U141", "U311"]
+    mouser: {id: "595-SN7407DR"}
   - id: 391499-01
     part: "74F521, 8-Bit Identity Comparator"
     package: "SOIC20W"
     quantity: 1
     components: ["U145"]
+    mouser: {id: "595-SN74F521DWR"}
   - id: 391088-01
     part: "74F04, Hex Inverter"
     package: "SOIC14N"
     quantity: 1
     components: ["U215"]
+    mouser: {id: "595-SN74F04DR"}
   - id: 391183-01
     part: "74F08, Quadruple 2-Input Positive-And Gate"
     package: "SOIC14N"
     quantity: 2
     components: ["U130", "U710"]
+    mouser: {id: "595-SN74F08DR"}
   - id: 391175-01
     part: "74F32, Quadruple 2-Input Positive-Or Gate"
     package: "SOIC14N"
     quantity: 1
     components: ["U140"]
+    mouser: {id: "595-SN74F32DR"}
   - id: 391320-01
     part: "74F74, Dual Flip-Flop with Clear and Preset"
     package: "SOIC14N"
     quantity: 2
     components: ["U106", "U459"]
+    mouser: {id: "595-SN74F74DRG4"}
   - id: 391325-01
     part: "74F86, Quadruple 2-Input Exclusive-Or Gate"
     package: "SOIC14N"
     quantity: 1
     components: ["U711"]
+    mouser: {id: "595-SN74F86DR"}
   - id: 391375-01
     part: "74F245, Octal Tri-State Bus Transceiver"
     package: "SOIC20W"
     quantity: 7
     components: ["U704", "U707", "U708", "U891", "U892", "U893", "U894"]
+    mouser: {id: "595-SN74F245DWR"}
   - id: 391481-01
     part: "74F841, 10-Bit Transparent Latch"
     package: "SOIC24W"
     quantity: 1
     components: ["U216"]
     rare: yes
+    mouser: {id: "512-74F841SCX"}
   - id: 391374-02
     part: "74FCT646T, 8-Bit Registered Tri-State Transceiver"
     package: "SOIC24W"
     quantity: 3
     components: ["U702", "U703", "U706"]
+    mouser: {id: "595-CY74FCT646ATSOCT"}
   - id: 391480-01
     part: "74HCT166, 8-Bit Parallel-In/Serial-Out Shift Register"
     package: "SOIC16N"
     quantity: 2
     components: ["U975", "U976"]
+    mouser: {id: "771-HCT166D653"}
   - id: 391400-01
     part: "74FCT244T, 8-Bit Tri-State Buffer"
     package: "DIP20"
     quantity: 1
     components: ["U103"]
+    mouser: {id: "595-CY74FCT244ATPC"}
   - id: 391474-01
     part: "74FCT245, 8-Bit Tri-State Transceiver"
     package: "SOIC20W"
     quantity: 4
     components: ["U455", "U456", "U457", "U458"]
+    mouser: {id: "595-CY74FCT245CTSOC ,762"}
   - id: 391377-01
     part: "74HCT174, Hex D-type Flip-Flop with Reset"
     package: "SOIC16N"
     quantity: 3
     components: ["U177", "U354", "U907"]
+    mouser: {id: "771-74HCT174D-T"}
   - id: 391326-01
     part: "74LS38, Quadruple Positive-Nand with Open-Collector"
     package: "SOIC14N"
     quantity: 1
     components: ["U352"]
+    mouser: {id: "595-SN74LS38DR"}
   - id: 391141-01
     part: "74LS74A, Dual D-Type Flip-Flop with Preset and Clear"
     package: "SOIC14N"
     quantity: 1
     components: ["U351"]
+    mouser: {id: "595-SN74LS74ADR"}
   - id: 391311-01
     part: "74HC4066, Quadruple Bilateral Analog Switch"
     package: "SOIC14N"
     quantity: 1
     components: ["U205"]
+    mouser: {id: "595-SN74HC4066DR"}
   - id: 391100-01
     part: "74HCT245, Octal Tri-State Bus Transceiver"
     package: "SOIC20W"
     quantity: 2
     components: ["U903", "U904"]
+    mouser: {id: "595-SN74HCT245DWR"}
   - id: 391191-01
     part: "74LS125A, Quadruple Tri-State Bus Buffer"
     package: "SOIC14N"
     quantity: 2
     components: ["U353", "U355"]
+    mouser: {id: "595-SN74LS125ADR"}
 
 Connectors:
   - id: 391368-01
     part: "SIMM Socket, 72 Pin, 22.5 Degrees"
     quantity: 5
     components: ["U261", "U850", "U851", "U852", "U853"]
+    mouser: {id: "571-5822134-3"}
   - id: 903345-06
     part: "12 Pin DIL Header"
     quantity: 1
     components: ["J975"]
+    mouser: {id: "649-1012938191203BLF"}
   - id: 903345-17
     part: "34 Pin DIL Header"
     quantity: 1
     components: ["CN351"]
+    mouser: {id: "649-67997-234HLF"}
   - id: 903345-20
     part: "40 Pin DIL Header"
     quantity: 1
     components: ["CN900"]
+    mouser: {id: "649-861400402YO2LF"}
   - id: 903326-02
     part: "2 Pin SIL Header"
     quantity: 2
     components: ["J351", "J850"]
+    mouser: {id: "649-1012937890203BLF"}
   - id: 903326-03
     part: "3 Pin SIL Header"
     quantity: 15
     components: ["CN200", "CN302", "CN303", "CN404", "J100", "J104", "J151", "J212", "J213", "J214", "J352", "J500", "J501", "J502", "J852"]
+    mouser: {id: "649-1012937890303BLF"}
   - id: 390242-01
     part: "D-Sub DB-9 Male"
     quantity: 2
     components: ["CN975", "CN976"]
     remark: "Mouse, Joystick"
+    mouser: {id: "523-L717SDE09PA4CH3R"}
   - id: 390242-03
     part: "D-Sub DB-23 Male"
     quantity: 1
@@ -617,30 +710,36 @@ Connectors:
     part: "6 Pin MINI DIN, Female"
     quantity: 1
     components: ["CN175"]
+    mouser: {id: "490-MD-60SM"}
   - id: 390043-01
     part: "Shorting Bars"
     quantity: 13
     components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
     remark: "Shunts"
+    mouser: {id: "200-SNT100BKG"}
   - id: 903349-01
     part: "Mate-N-Lok Socket Header, 6 Circuit"
     quantity: 1
     components: ["CN160"]
     remark: "Power In"
+    mouser: {id: "571-350827-1"}
   - id: 252122-02
     part: "RCA Jack"
     remark: "Red"
     quantity: 1
     components: ["CN403"]
+    mouser: {id: "502-PJRAN1X1U03AUX"}
   - id: 252122-01
     part: "RCA Jack"
     remark: "White"
     quantity: 1
     components: ["CN402"]
+    mouser: {id: "502-PJRAN1X1U02AUX"}
   - id: 903446-06
     part: "100 Pin Edge Card Connector"
     quantity: 2
     components: ["CN452", "CN600"]
+    mouser: {id: "571-2-5530843-2"}
   - id: 390557-01
     part: "200 Pin KEL200 Female Connector"
     quantity: 1
@@ -652,10 +751,12 @@ Diverse:
     part: "Varistor Switch, Self Resetting 1.85A"
     quantity: 1
     components: ["F175"]
+    mouser: {id: "652-MFR185"}
   - id: 390719-01
     part: "Socket, single pin, .040 hole"
     quantity: 8
     components: ["U104", "U154"]
+    mouser: {id: "571-6-5330808-5"}
   - id: 380393-02
     part: "Battery, NiCd 3.6V 680mAh 3/60DK"
     quantity: 1
@@ -667,6 +768,7 @@ Diverse:
     quantity: 1
     components: ["L500"]
     remark: "L500 can be left out on Acill boards"
+    mouser: {id: "652-CC453232-470KL"}
 
 Optionals:
   - part: "Socket, DIP18"
@@ -674,40 +776,48 @@ Optionals:
     quantity: 1
     components: ["U178"]
     remark: "RTC"
+    mouser: {id: "575-11044318"}
   - id: 390768-04
     part: "Socket, DIP20"
     package: "DIP20"
     quantity: 1
     components: ["U103"]
     remark: "74FCT244T"
+    mouser: {id: "575-11044320"}
   - id: 904150-06
     part: "Socket, DIP40"
     package: "DIP40"
     quantity: 2
     components: ["U175", "U176"]
     remark: "ROMs"
+    mouser: {id: "575-11044640"}
   - part: "Socket, PLCC20, without location post"
     package: "PLCC20"
     quantity: 5
     components: ["U213", "U701", "U714", "U901", "U902"]
     remark: "PAL"
+    mouser: {id: "517-8420-21B1-RK-TP"}
   - part: "Socket, PLCC28, without location post"
     package: "PLCC28"
     quantity: 1
     components: ["U212"]
     remark: "PAL"
+    mouser: {id: "517-8428-21B1-RK-TP"}
   - part: "Socket, PLCC44, with location post"
     package: "PLCC44"
     quantity: 3
     components: ["U300", "U350", "U460"]
     remark: "CIAs, Video DAC"
+    mouser: {id: "517-8444-21A1-RK-TP"}
   - part: "Socket, PLCC52, with location post"
     package: "PLCC52"
     quantity: 1
     components: ["U400"]
     remark: "Paula"
+    mouser: {id: "517-8452-21A1-RK-TP"}
   - part: "Socket, PLCC84, with location post"
     package: "PLCC84"
     quantity: 5
     components: ["U150", "U211", "U450", "U700", "U890"]
     remark: "Alice, Lisa, Fat Gary, Fat Ramsey, Fat Buster"
+    mouser: {id: "517-8484-21A1-RK-TP"}
