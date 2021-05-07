@@ -14,7 +14,7 @@ However, this list may not be free of errors. If you have found one, please [ope
 
 ## Technical Background
 
-The main file of this project is the `a4000-rb-bom.yml` file. It contains the bill of material in a file format that can be easily diffed by git, and can also easily read by programs.
+The main file of this project is the `a4000-rb-bom.yml` file. It contains the bill of material as YAML file, so it can be easily diffed by git and read by programs.
 
 A Python tool called `generate.py` generates the website. You can find the generated web site in the `docs` directory. The converter needs [PyYAML](https://pypi.org/project/PyYAML/), [Jinja2](https://pypi.org/project/Jinja2/) and [jinja-markdown](https://pypi.org/project/jinja-markdown/) installed on your system.
 

@@ -761,7 +761,7 @@ Diverse:
     part: "Battery, NiCd 3.6V 680mAh 3/60DK"
     quantity: 1
     components: ["BT176"]
-    remark: "Not recommended, see README"
+    remark: "Not recommended"
   - id: 391138-05
     part: "Inductor, 47µH"
     package: "1210"

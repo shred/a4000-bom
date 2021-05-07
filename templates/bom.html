@@ -1,95 +1,31 @@
-<!DOCTYPE html>
-<html><!-- Generated file, changes will be lost! -->
-<head>
-    <meta charset="utf-8" />
-    <title>Amiga 4000D Rev B: Bill of Material</title>
-    <style>
-body {
-    background-color: white;
-    font-family: sans-serif;
-}
-table {
-    width: 100%;
-    border-collapse: collapse;
-    table-layout: fixed;
-}
-table, th, td {
-    border-left: 1px solid grey;
-    border-right: 1px solid grey;
-}
-tr:nth-child(even) {
-    background-color: lightgrey;
-}
-tr.rare {
-    background-color: orangered;
-}
-thead {
-    background-color: lightgreen;
-}
-th {
-    text-align: left;
-    height: 2rem;
-}
-th.c-id {
-    width: 6rem;
-}
-th.c-qty {
-    width: 3rem;
-}
-th.c-pkg {
-    width: 5rem;
-}
-td {
-    vertical-align: top;
-}
-td.c-qty {
-    text-align: right;
-}
-td.c-cmp {
-    font-size: 80%;
-}
-.section {
-    background-color: lightyellow;
-    padding-left: 2rem;
-    padding-top: .3rem;
-    border-top: 1px solid grey;
-    font-size: 120%;
-    font-weight: bold;
-}
-    </style>
-</head>
-<body>
-<h1>Amiga 4000D Rev B - Bill of Material</h1>
+{% extends 'template.html' %}
+{% block content %}
+<p class="noprint">
+    Avoid frustration and wasted money. <a href="index.html">Read the introduction first!</a>
+</p>
 <table>
 <thead>
     <th class="c-id">Part ID</th>
     <th class="c-qty">Qty</th>
     <th class="c-prt">Part</th>
-    <th class="c-pkg">Package</th>
     <th class="c-rem">Remark</th>
+    <th class="c-pkg">Package</th>
     <th class="c-cmp">Components</th>
 </thead>
 <tbody>
 {% for sec, parts in bom.items() %}
 <tr><td class="section" colspan="6">{{ sec }}</td></tr>
 {% for p in parts %}
-<tr class="{% if p.rare %}rare{% endif %}">
+<tr>
     <td class="c-id">{{ p.id|e }}</td>
     <td class="c-qty">{{ p.quantity|e }}</td>
     <td class="c-prt">{{ p.part|e }}</td>
+    <td class="c-rem">{% if p.rare %}<span class="rare">Rare</span>{% endif %}{{ p.remark|e }}</td>
     <td class="c-pkg">{{ p.package|e }}</td>
-    <td class="c-rem">{{ p.remark|e }}</td>
     <td class="c-cmp">{{ p.components|join(', ')|e }}</td>
 </tr>
 {% endfor %}
 {% endfor %}
 </tbody>
 </table>
-<p>
-    Rare parts are marked in red. This list is provided "as is" and without warranties of any kind either expressed or implied.
-</p>
-<p>
-    Version: {{ version }} ({{ date }})
-</p>
-</body>
-</html>
+{% endblock %}
