@@ -486,7 +486,7 @@ Oscillators:
     package: "PLCC28"
     quantity: 1
     components: ["U212"]
-    remark: "CAS Gen, Content: 391392-03"
+    remark: "RAS/CAS Generator, Content: 391392-03"
     rare: yes
     mouser: {id: "556-ATF22V10C-10JU"}
   - id: 391477-01
@@ -494,7 +494,7 @@ Oscillators:
     package: "PLCC20"
     quantity: 1
     components: ["U213"]
-    remark: "Chip RAM Ctrl, Content: 391412-01"
+    remark: "Chip RAM Control, Content: 391412-01"
     rare: yes
     mouser: {id: "556-AF16V8B10JU"}
   - id: 391476-01
@@ -502,7 +502,7 @@ Oscillators:
     package: "PLCC20"
     quantity: 1
     components: ["U701"]
-    remark: "Arb & int., Content: 391359-04"
+    remark: "Arbiter & Interrupts, Content: 391359-04"
     rare: yes
     mouser: {id: "556-AF16V8B10JU"}
   - id: 391475-01
