@@ -606,7 +606,7 @@ Resistors:
     components: ["RP176"]
     mouser: {id: "652-4608X-1LF-10K"}
 
-"Ferrites":
+Ferrites:
   - id: 391559-01
     part: "Filter, Ferrite"
     package: "1812"
