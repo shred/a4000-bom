@@ -9,7 +9,7 @@
 
 # Introduction
 
-This is the Bill of Material for a replica Amiga 4000D Rev B. It bases on the [Amiga 4000 Schematics](http://www.amigawiki.de/dnl/schematics/A4000_Rb.pdf) found at the Amiga Wiki, and is optimized for [Acill's A4000 Replica Project](https://github.com/Acill/A4000RevB) boards.
+This is the Bill of Material for a replica Amiga 4000D Rev B. It is optimized for [Acill's A4000 Replica Project](https://github.com/Acill/A4000RevB) boards.
 
 ## Read Me First!
 
@@ -51,6 +51,15 @@ Although we strive to make the information in this project as helpful and accura
 In other words: You might spend a lot of money, and end up with a non-functioning mainboard or a cardboard box full of useless components.
 
 **Use at your own risk!**
+
+## Sources
+
+The following sources have been used:
+
+* AmigaWiki: [A4000 Rev B Schematic](http://www.amigawiki.de/dnl/schematics/A4000_Rb.pdf)
+* Acill: [A4000 Replica Project](https://github.com/Acill/A4000RevB)
+* Chucky: [Component Locator, A4000 RevB - Acill](http://locator.reamiga.info/locator.php?project=A4000)
+* Shred's classic Amiga 4000D mainboard
 
 ## Contribute
 

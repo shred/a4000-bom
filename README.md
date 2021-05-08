@@ -24,6 +24,8 @@ The following sources have been used:
 
 * AmigaWiki: [A4000 Rev B Schematic](http://www.amigawiki.de/dnl/schematics/A4000_Rb.pdf)
 * Acill: [A4000 Replica Project](https://github.com/Acill/A4000RevB)
+* Chucky: [Component Locator, A4000 RevB - Acill](http://locator.reamiga.info/locator.php?project=A4000)
+* Shred's classic Amiga 4000D mainboard
 
 ## Disclaimer
 
