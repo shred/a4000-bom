@@ -1,0 +1,19 @@
+{% extends 'template.html' %}
+{% block content %}
+{% markdown %}{{ content.csv }}{% endmarkdown %}
+
+<button onclick="document.getElementById('csv').select();document.execCommand('copy');">Copy to Clipboard</button>
+<textarea id="csv" readonly="readonly">
+"Quantity 1","Description","Customer Part No.","Mouser Part Number"
+{% for sec, parts in bom.items() -%}
+  {%- for p in parts -%}
+    {%- if p.mouser %}
+{{ p.quantity }},"{{ p.part }}{% if p.mouser.replacement %} (replacement part){% endif %}",{{ p.id }},{{ p.mouser.id }}
+    {%- endif -%}
+  {%- endfor -%}
+{%- endfor -%}
+</textarea>
+
+{% markdown %}{{ content['csv-annex'] }}{% endmarkdown %}
+
+{% endblock %}

@@ -28,10 +28,9 @@ footer {
 }
 
 h1 {
-    text-align: center;
-    font-size: 2rem;
-    margin-top: 2rem;
-    border-bottom: 1px solid #83a9d8;
+    margin: 1rem -5rem;
+    padding: 0 5rem;
+    border-bottom: 2px solid #83a9d8;
 }
 
 a {
@@ -147,6 +146,24 @@ td.section {
     padding: 0 1rem;
 }
 
+.msr {
+    background-color: #0070bb;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 1rem;
+    margin: auto 0 auto .2rem;
+    padding: 0 0.2rem;
+}
+
+a.msr {
+    float: right;
+    color: white;
+    text-decoration: none;
+}
+
 .toc {
     width: 100%;
     display: flex;
@@ -181,6 +198,13 @@ td.section {
     color: #ed1c24;
 }
 
+textarea#csv {
+    font-family: monospace;
+    font-size: 1.5em;
+    width: 100%;
+    height: 15rem;
+}
+
 @media print {
     @page {
         size: landscape;
@@ -198,6 +222,10 @@ td.section {
 
     a.printable:after {
         content: ": "attr(href);
+    }
+
+    a.msr {
+        display: none;
     }
 
     .noprint {

@@ -3,6 +3,7 @@
 <div class="toc"><ul>
   <li><a href="index.html">Introduction</a> &ndash; this page</li>
   <li><a href="a4000-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
+  <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
   <li><a href="https://github.com/shred/a4000-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
 </ul></div>
 

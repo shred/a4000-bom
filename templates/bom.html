@@ -23,7 +23,14 @@
     <td class="c-id">{{ p.id|e }}</td>
     <td class="c-qty">{{ p.quantity|e }}</td>
     <td class="c-prt">{{ p.part|e }}</td>
-    <td class="c-rem">{% if p.rare %}<span class="rare">Rare</span>{% endif %}{{ p.remark|e }}</td>
+    <td class="c-rem">
+        {%- if p.mouser -%}
+            <a href="https://www.mouser.com/ProductDetail/{{ p.mouser.id }}" class="msr">M</a>
+        {%- endif -%}
+        {%- if p.rare -%}
+            <span class="rare">Rare</span>
+        {%- endif -%}
+        {{ p.remark|e }}</td>
     <td class="c-pkg">{{ p.package|e }}</td>
     <td class="c-cmp">{{ p.components|join(', ')|e }}</td>
 </tr>
@@ -31,4 +38,7 @@
 {% endfor %}
 </tbody>
 </table>
+<p class="noprint">
+    <span class="msr">M</span> are links to example components at Mouser Electronics, and are not peer reviewed yet.
+</p>
 {% endblock %}
