@@ -1,6 +1,6 @@
 # A4000D Rev B Bill of Material
 ---
-version: 0.7
+version: 0.8
 date: 2021-05-08
 ---
 
@@ -322,6 +322,7 @@ Diodes:
     package: "MELF"
     quantity: 15
     components: ["D175", "D176", "D305", "D306", "D307", "D360", "D361", "D362", "D363", "D500", "D501", "D502", "D503", "D504", "D505"]
+    mouser: {id: "625-1N6478-E3/96", replacement: yes}
   - id: 391129-01
     part: "1N4148"
     package: "SOT23"
