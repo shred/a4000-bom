@@ -1,6 +1,6 @@
 # A4000D Rev B Bill of Material
 ---
-version: 0.5
+version: 0.6
 date: 2021-05-08
 ---
 
@@ -9,6 +9,325 @@ Board:
     part: "PCB"
     quantity: 1
     remark: "Acill's Amiga 4000D Replica Board"
+
+"Custom Chips":
+  - id: 391010-01
+    part: "8374 - Alice"
+    package: "PLCC84"
+    quantity: 1
+    components: ["U211"]
+    rare: yes
+  - id: 391227-01
+    part: "4203 - Lisa"
+    package: "PLCC84"
+    quantity: 1
+    components: ["U450"]
+    rare: yes
+  - id: 391077-01
+    part: "8364R7 - Paula"
+    package: "PLCC52"
+    quantity: 1
+    components: ["U400"]
+    rare: yes
+  - id: 391078-02
+    part: "8520 - CIA"
+    package: "PLCC44"
+    quantity: 2
+    components: ["U300", "U350"]
+    rare: yes
+  - id: 391380-01
+    part: "Bridgette"
+    package: "PQFP100"
+    quantity: 1
+    components: ["U250"]
+    rare: yes
+  - id: 390539-09
+    part: "Fat Buster"
+    package: "PLCC84"
+    quantity: 1
+    components: ["U700"]
+    remark: "Should be latest revision 11"
+    rare: yes
+  - id: 390540-02
+    part: "Fat Gary"
+    package: "PLCC84"
+    quantity: 1
+    components: ["U150"]
+    rare: yes
+  - id: 390541-07
+    part: "Ramsey"
+    package: "PLCC84"
+    quantity: 1
+    components: ["U890"]
+    rare: yes
+
+"Integrated Circuits":
+  - id: 391513-02
+    part: "HN62402, 150ns, Kickstart ROM \"Low\""
+    package: "DIP40"
+    quantity: 1
+    components: ["U176"]
+  - id: 391514-02
+    part: "HN62402, 150ns, Kickstart ROM \"High\""
+    package: "DIP40"
+    quantity: 1
+    components: ["U175"]
+  - id: 390525-01
+    part: "Ricoh RP5C01, Real Time Clock"
+    package: "DIP18"
+    quantity: 1
+    components: ["U178"]
+    rare: yes
+  - id: 391494-01
+    part: "ADV7120KP30, VideoDAC, Triple 8-Bit, 30 MHz"
+    package: "PLCC44"
+    quantity: 1
+    components: ["U460"]
+    rare: yes
+  - id: 390555-01
+    part: "Delay Line, 5 Tap, 25ns"
+    package: "DIP14"
+    quantity: 1
+    components: ["U102"]
+    rare: yes
+  - id: 391478-01
+    part: "PAL, 22V10-10"
+    package: "PLCC28"
+    quantity: 1
+    components: ["U212"]
+    remark: "RAS/CAS Generator, Content: 391392-03"
+    rare: yes
+    mouser: {id: "556-ATF22V10C-10JU", replacement: yes}
+  - id: 391477-01
+    part: "PAL, 16L8-10"
+    package: "PLCC20"
+    quantity: 1
+    components: ["U213"]
+    remark: "Chip RAM Control, Content: 391412-01"
+    rare: yes
+    mouser: {id: "556-AF16V8B10JU", replacement: yes}
+  - id: 391476-01
+    part: "PAL, 16R4-15"
+    package: "PLCC20"
+    quantity: 1
+    components: ["U701"]
+    remark: "Arbiter & Interrupts, Content: 391359-04"
+    rare: yes
+    mouser: {id: "556-AF16V8B10JU", replacement: yes}
+  - id: 391475-01
+    part: "PAL, 16L8-10"
+    package: "PLCC20"
+    quantity: 1
+    components: ["U714"]
+    remark: "Zorro Decode, Content: 391199-03"
+    rare: yes
+    mouser: {id: "556-AF16V8B10JU", replacement: yes}
+  - id: 391406-01
+    part: "PAL, 16L8-15"
+    package: "PLCC20"
+    quantity: 1
+    components: ["U901"]
+    remark: "IDE Decode, Content: 391199-04"
+    rare: yes
+    mouser: {id: "556-AF16V8B10JU", replacement: yes}
+  - id: 391405-01
+    part: "PAL, 16R6-15"
+    package: "PLCC20"
+    quantity: 1
+    components: ["U902"]
+    remark: "IDE State, Content: 391403-02"
+    rare: yes
+    mouser: {id: "556-AF16V8B10JU", replacement: yes}
+  - id: 391473-01
+    part: "LM833, Dual Op Amp"
+    package: "SOIC8N"
+    quantity: 1
+    components: ["U403"]
+    mouser: {id: "511-LM833DT"}
+  - id: 391103-01
+    part: "LF347, Quad Op Amp, JFET"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U402"]
+    mouser: {id: "511-LF347D-TR"}
+  - id: 391087-01
+    part: "1488, Quad Line Driver"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U304"]
+    mouser: {id: "595-SN75188DR"}
+  - id: 391086-01
+    part: "1489, Quad Line Receiver"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U305"]
+    mouser: {id: "595-SN75189DR"}
+  - id: 391421-01
+    part: "LM-385-DR-1.2V Voltage Reference, 1.2V"
+    package: "SOIC8N"
+    quantity: 1
+    components: ["D507"]
+    mouser: {id: "595-LM385D-1-2"}
+  - id: 901527-03
+    part: "7905, Voltage Regulator, Fixed Output"
+    package: "TO220"
+    quantity: 1
+    components: ["U198"]
+    mouser: {id: "926-LM7905CT/NOPB"}
+  - id: 391276-01
+    part: "7406, Hex Open-Collector Inverter Buffer"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U131"]
+    mouser: {id: "595-SN7406DR"}
+  - id: 391188-01
+    part: "7407, Hex Open-Collector Buffer"
+    package: "SOIC14N"
+    quantity: 2
+    components: ["U141", "U311"]
+    mouser: {id: "595-SN7407DR"}
+  - id: 391499-01
+    part: "74F521, 8-Bit Identity Comparator"
+    package: "SOIC20W"
+    quantity: 1
+    components: ["U145"]
+    mouser: {id: "595-SN74F521DWR"}
+  - id: 391088-01
+    part: "74F04, Hex Inverter"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U215"]
+    mouser: {id: "595-SN74F04DR"}
+  - id: 391183-01
+    part: "74F08, Quadruple 2-Input Positive-And Gate"
+    package: "SOIC14N"
+    quantity: 2
+    components: ["U130", "U710"]
+    mouser: {id: "595-SN74F08DR"}
+  - id: 391175-01
+    part: "74F32, Quadruple 2-Input Positive-Or Gate"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U140"]
+    mouser: {id: "595-SN74F32DR"}
+  - id: 391320-01
+    part: "74F74, Dual Flip-Flop with Clear and Preset"
+    package: "SOIC14N"
+    quantity: 2
+    components: ["U106", "U459"]
+    mouser: {id: "595-SN74F74DRG4"}
+  - id: 391325-01
+    part: "74F86, Quadruple 2-Input Exclusive-Or Gate"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U711"]
+    mouser: {id: "595-SN74F86DR"}
+  - id: 391375-01
+    part: "74F245, Octal Tri-State Bus Transceiver"
+    package: "SOIC20W"
+    quantity: 7
+    components: ["U704", "U707", "U708", "U891", "U892", "U893", "U894"]
+    mouser: {id: "595-SN74F245DWR"}
+  - id: 391481-01
+    part: "74F841, 10-Bit Transparent Latch"
+    package: "SOIC24W"
+    quantity: 1
+    components: ["U216"]
+    rare: yes
+    mouser: {id: "512-74F841SCX"}
+  - id: 391374-02
+    part: "74FCT646T, 8-Bit Registered Tri-State Transceiver"
+    package: "SOIC24W"
+    quantity: 3
+    components: ["U702", "U703", "U706"]
+    mouser: {id: "595-CY74FCT646ATSOCT"}
+  - id: 391480-01
+    part: "74HCT166, 8-Bit Parallel-In/Serial-Out Shift Register"
+    package: "SOIC16N"
+    quantity: 2
+    components: ["U975", "U976"]
+    mouser: {id: "771-HCT166D653"}
+  - id: 391400-01
+    part: "74FCT244T, 8-Bit Tri-State Buffer"
+    package: "DIP20"
+    quantity: 1
+    components: ["U103"]
+    mouser: {id: "595-CY74FCT244ATPC"}
+  - id: 391474-01
+    part: "74FCT245, 8-Bit Tri-State Transceiver"
+    package: "SOIC20W"
+    quantity: 4
+    components: ["U455", "U456", "U457", "U458"]
+    mouser: {id: "595-CY74FCT245CTSOC"}
+  - id: 391377-01
+    part: "74HCT174, Hex D-type Flip-Flop with Reset"
+    package: "SOIC16N"
+    quantity: 3
+    components: ["U177", "U354", "U907"]
+    mouser: {id: "771-74HCT174D-T"}
+  - id: 391326-01
+    part: "74LS38, Quadruple Positive-Nand with Open-Collector"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U352"]
+    mouser: {id: "595-SN74LS38DR"}
+  - id: 391141-01
+    part: "74LS74A, Dual D-Type Flip-Flop with Preset and Clear"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U351"]
+    mouser: {id: "595-SN74LS74ADR"}
+  - id: 391311-01
+    part: "74HC4066, Quadruple Bilateral Analog Switch"
+    package: "SOIC14N"
+    quantity: 1
+    components: ["U205"]
+    mouser: {id: "595-SN74HC4066DR"}
+  - id: 391100-01
+    part: "74HCT245, Octal Tri-State Bus Transceiver"
+    package: "SOIC20W"
+    quantity: 2
+    components: ["U903", "U904"]
+    mouser: {id: "595-SN74HCT245DWR"}
+  - id: 391191-01
+    part: "74LS125A, Quadruple Tri-State Bus Buffer"
+    package: "SOIC14N"
+    quantity: 2
+    components: ["U353", "U355"]
+    mouser: {id: "595-SN74LS125ADR"}
+
+Transistors:
+  - id: 391121-01
+    part: "2N3904 - NPN"
+    package: "SOT23"
+    quantity: 2
+    components: ["Q300", "Q901"]
+    mouser: {id: "833-MMBT3904-TP"}
+  - id: 391122-01
+    part: "2N3906 - PNP"
+    package: "SOT23"
+    quantity: 1
+    components: ["Q400"]
+    mouser: {id: "863-MMBT3906LT1G"}
+  - id: 391145-01
+    part: "MPF102 - N-Channel JFET"
+    package: "SOT23"
+    quantity: 2
+    components: ["Q430", "Q440"]
+    mouser: {id: "512-MMBFJ113"}
+
+Diodes:
+  - id: 391327-01
+    part: "1N4001"
+    package: "MELF"
+    quantity: 15
+    components: ["D175", "D176", "D305", "D306", "D307", "D360", "D361", "D362", "D363", "D500", "D501", "D502", "D503", "D504", "D505"]
+  - id: 391129-01
+    part: "1N4148"
+    package: "SOT23"
+    quantity: 3
+    components: ["D177", "D178", "D300"]
+    mouser: {id: "512-MMBD4148CC"}
 
 Capacitors:
   - id: 390818-01
@@ -120,53 +439,6 @@ Capacitors:
     package: "TH 5mm"
     rare: yes
     mouser: {id: "659-GKG60015", replacement: yes}
-
-Transistors:
-  - id: 391121-01
-    part: "2N3904 - NPN"
-    package: "SOT23"
-    quantity: 2
-    components: ["Q300", "Q901"]
-    mouser: {id: "833-MMBT3904-TP"}
-  - id: 391122-01
-    part: "2N3906 - PNP"
-    package: "SOT23"
-    quantity: 1
-    components: ["Q400"]
-    mouser: {id: "863-MMBT3906LT1G"}
-  - id: 391145-01
-    part: "MPF102 - N-Channel JFET"
-    package: "SOT23"
-    quantity: 2
-    components: ["Q430", "Q440"]
-    mouser: {id: "512-MMBFJ113"}
-
-Diodes:
-  - id: 391327-01
-    part: "1N4001"
-    package: "MELF"
-    quantity: 15
-    components: ["D175", "D176", "D305", "D306", "D307", "D360", "D361", "D362", "D363", "D500", "D501", "D502", "D503", "D504", "D505"]
-  - id: 391129-01
-    part: "1N4148"
-    package: "SOT23"
-    quantity: 3
-    components: ["D177", "D178", "D300"]
-    mouser: {id: "512-MMBD4148CC"}
-
-Ferrites:
-  - id: 391559-01
-    part: "Filter, Ferrite"
-    package: "1812"
-    quantity: 12
-    components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
-    mouser: {id: "623-2518065007Y6", replacement: yes}
-  - id: 391092-03
-    part: "Filter, Ferrite"
-    package: "1206"
-    quantity: 17
-    components: ["ER976", "ER977", "ER978", "ER979", "ER980", "ER981", "ER982", "ER983", "ER984", "ER985", "ER986", "ER987", "ER988", "ER989", "FB410", "FB411", "FB710"]
-    mouser: {id: "623-2512061517Y3"}
 
 Resistors:
   - id: 391093-01
@@ -367,290 +639,6 @@ Oscillators:
     components: ["Y176"]
     mouser: {id: "815-AB26T-32.768KHZ"}
 
-"Integrated Circuits":
-  - id: 391513-02
-    part: "HN62402, 150ns, Kickstart ROM \"Low\""
-    package: "DIP40"
-    quantity: 1
-    components: ["U176"]
-  - id: 391514-02
-    part: "HN62402, 150ns, Kickstart ROM \"High\""
-    package: "DIP40"
-    quantity: 1
-    components: ["U175"]
-  - id: 391010-01
-    part: "8374 - Alice"
-    package: "PLCC84"
-    quantity: 1
-    components: ["U211"]
-    rare: yes
-  - id: 391227-01
-    part: "4203 - Lisa"
-    package: "PLCC84"
-    quantity: 1
-    components: ["U450"]
-    rare: yes
-  - id: 391077-01
-    part: "8364R7 - Paula"
-    package: "PLCC52"
-    quantity: 1
-    components: ["U400"]
-    rare: yes
-  - id: 391078-02
-    part: "8520 - CIA"
-    package: "PLCC44"
-    quantity: 2
-    components: ["U300", "U350"]
-    rare: yes
-  - id: 390525-01
-    part: "Ricoh RP5C01, Real Time Clock"
-    package: "DIP18"
-    quantity: 1
-    components: ["U178"]
-    rare: yes
-  - id: 391494-01
-    part: "ADV7120KP30, VideoDAC, Triple 8-Bit, 30 MHz"
-    package: "PLCC44"
-    quantity: 1
-    components: ["U460"]
-    rare: yes
-  - id: 390540-02
-    part: "Fat Gary"
-    package: "PLCC84"
-    quantity: 1
-    components: ["U150"]
-    rare: yes
-  - id: 390541-07
-    part: "Ramsey"
-    package: "PLCC84"
-    quantity: 1
-    components: ["U890"]
-    rare: yes
-  - id: 391380-01
-    part: "Bridgette"
-    package: "PQFP100"
-    quantity: 1
-    components: ["U250"]
-    rare: yes
-  - id: 390539-09
-    part: "Fat Buster"
-    package: "PLCC84"
-    quantity: 1
-    components: ["U700"]
-    remark: "Should be latest revision 11"
-    rare: yes
-  - id: 391473-01
-    part: "LM833, Dual Op Amp"
-    package: "SOIC8N"
-    quantity: 1
-    components: ["U403"]
-    mouser: {id: "511-LM833DT"}
-  - id: 391103-01
-    part: "LF347, Quad Op Amp, JFET"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U402"]
-    mouser: {id: "511-LF347D-TR"}
-  - id: 390555-01
-    part: "Delay Line, 5 Tap, 25ns"
-    package: "DIP14"
-    quantity: 1
-    components: ["U102"]
-    rare: yes
-  - id: 391087-01
-    part: "1488, Quad Line Driver"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U304"]
-    mouser: {id: "595-SN75188DR"}
-  - id: 391086-01
-    part: "1489, Quad Line Receiver"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U305"]
-    mouser: {id: "595-SN75189DR"}
-  - id: 391421-01
-    part: "LM-385-DR-1.2V Voltage Reference, 1.2V"
-    package: "SOIC8N"
-    quantity: 1
-    components: ["D507"]
-    mouser: {id: "595-LM385D-1-2"}
-  - id: 901527-03
-    part: "7905, Voltage Regulator, Fixed Output"
-    package: "TO220"
-    quantity: 1
-    components: ["U198"]
-    mouser: {id: "926-LM7905CT/NOPB"}
-  - id: 391478-01
-    part: "PAL, 22V10-10"
-    package: "PLCC28"
-    quantity: 1
-    components: ["U212"]
-    remark: "RAS/CAS Generator, Content: 391392-03"
-    rare: yes
-    mouser: {id: "556-ATF22V10C-10JU", replacement: yes}
-  - id: 391477-01
-    part: "PAL, 16L8-10"
-    package: "PLCC20"
-    quantity: 1
-    components: ["U213"]
-    remark: "Chip RAM Control, Content: 391412-01"
-    rare: yes
-    mouser: {id: "556-AF16V8B10JU", replacement: yes}
-  - id: 391476-01
-    part: "PAL, 16R4-15"
-    package: "PLCC20"
-    quantity: 1
-    components: ["U701"]
-    remark: "Arbiter & Interrupts, Content: 391359-04"
-    rare: yes
-    mouser: {id: "556-AF16V8B10JU", replacement: yes}
-  - id: 391475-01
-    part: "PAL, 16L8-10"
-    package: "PLCC20"
-    quantity: 1
-    components: ["U714"]
-    remark: "Zorro Decode, Content: 391199-03"
-    rare: yes
-    mouser: {id: "556-AF16V8B10JU", replacement: yes}
-  - id: 391406-01
-    part: "PAL, 16L8-15"
-    package: "PLCC20"
-    quantity: 1
-    components: ["U901"]
-    remark: "IDE Decode, Content: 391199-04"
-    rare: yes
-    mouser: {id: "556-AF16V8B10JU", replacement: yes}
-  - id: 391405-01
-    part: "PAL, 16R6-15"
-    package: "PLCC20"
-    quantity: 1
-    components: ["U902"]
-    remark: "IDE State, Content: 391403-02"
-    rare: yes
-    mouser: {id: "556-AF16V8B10JU", replacement: yes}
-  - id: 391276-01
-    part: "7406, Hex Open-Collector Inverter Buffer"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U131"]
-    mouser: {id: "595-SN7406DR"}
-  - id: 391188-01
-    part: "7407, Hex Open-Collector Buffer"
-    package: "SOIC14N"
-    quantity: 2
-    components: ["U141", "U311"]
-    mouser: {id: "595-SN7407DR"}
-  - id: 391499-01
-    part: "74F521, 8-Bit Identity Comparator"
-    package: "SOIC20W"
-    quantity: 1
-    components: ["U145"]
-    mouser: {id: "595-SN74F521DWR"}
-  - id: 391088-01
-    part: "74F04, Hex Inverter"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U215"]
-    mouser: {id: "595-SN74F04DR"}
-  - id: 391183-01
-    part: "74F08, Quadruple 2-Input Positive-And Gate"
-    package: "SOIC14N"
-    quantity: 2
-    components: ["U130", "U710"]
-    mouser: {id: "595-SN74F08DR"}
-  - id: 391175-01
-    part: "74F32, Quadruple 2-Input Positive-Or Gate"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U140"]
-    mouser: {id: "595-SN74F32DR"}
-  - id: 391320-01
-    part: "74F74, Dual Flip-Flop with Clear and Preset"
-    package: "SOIC14N"
-    quantity: 2
-    components: ["U106", "U459"]
-    mouser: {id: "595-SN74F74DRG4"}
-  - id: 391325-01
-    part: "74F86, Quadruple 2-Input Exclusive-Or Gate"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U711"]
-    mouser: {id: "595-SN74F86DR"}
-  - id: 391375-01
-    part: "74F245, Octal Tri-State Bus Transceiver"
-    package: "SOIC20W"
-    quantity: 7
-    components: ["U704", "U707", "U708", "U891", "U892", "U893", "U894"]
-    mouser: {id: "595-SN74F245DWR"}
-  - id: 391481-01
-    part: "74F841, 10-Bit Transparent Latch"
-    package: "SOIC24W"
-    quantity: 1
-    components: ["U216"]
-    rare: yes
-    mouser: {id: "512-74F841SCX"}
-  - id: 391374-02
-    part: "74FCT646T, 8-Bit Registered Tri-State Transceiver"
-    package: "SOIC24W"
-    quantity: 3
-    components: ["U702", "U703", "U706"]
-    mouser: {id: "595-CY74FCT646ATSOCT"}
-  - id: 391480-01
-    part: "74HCT166, 8-Bit Parallel-In/Serial-Out Shift Register"
-    package: "SOIC16N"
-    quantity: 2
-    components: ["U975", "U976"]
-    mouser: {id: "771-HCT166D653"}
-  - id: 391400-01
-    part: "74FCT244T, 8-Bit Tri-State Buffer"
-    package: "DIP20"
-    quantity: 1
-    components: ["U103"]
-    mouser: {id: "595-CY74FCT244ATPC"}
-  - id: 391474-01
-    part: "74FCT245, 8-Bit Tri-State Transceiver"
-    package: "SOIC20W"
-    quantity: 4
-    components: ["U455", "U456", "U457", "U458"]
-    mouser: {id: "595-CY74FCT245CTSOC"}
-  - id: 391377-01
-    part: "74HCT174, Hex D-type Flip-Flop with Reset"
-    package: "SOIC16N"
-    quantity: 3
-    components: ["U177", "U354", "U907"]
-    mouser: {id: "771-74HCT174D-T"}
-  - id: 391326-01
-    part: "74LS38, Quadruple Positive-Nand with Open-Collector"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U352"]
-    mouser: {id: "595-SN74LS38DR"}
-  - id: 391141-01
-    part: "74LS74A, Dual D-Type Flip-Flop with Preset and Clear"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U351"]
-    mouser: {id: "595-SN74LS74ADR"}
-  - id: 391311-01
-    part: "74HC4066, Quadruple Bilateral Analog Switch"
-    package: "SOIC14N"
-    quantity: 1
-    components: ["U205"]
-    mouser: {id: "595-SN74HC4066DR"}
-  - id: 391100-01
-    part: "74HCT245, Octal Tri-State Bus Transceiver"
-    package: "SOIC20W"
-    quantity: 2
-    components: ["U903", "U904"]
-    mouser: {id: "595-SN74HCT245DWR"}
-  - id: 391191-01
-    part: "74LS125A, Quadruple Tri-State Bus Buffer"
-    package: "SOIC14N"
-    quantity: 2
-    components: ["U353", "U355"]
-    mouser: {id: "595-SN74LS125ADR"}
-
 Connectors:
   - id: 391368-01
     part: "SIMM Socket, 72 Pin, 22.5 Degrees"
@@ -711,12 +699,6 @@ Connectors:
     quantity: 1
     components: ["CN175"]
     mouser: {id: "490-MD-60SM"}
-  - id: 390043-01
-    part: "Shorting Bars"
-    quantity: 13
-    components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
-    remark: "Jumpers"
-    mouser: {id: "200-SNT100BKG"}
   - id: 903349-01
     part: "Mate-N-Lok Socket Header, 6 Circuit"
     quantity: 1
@@ -746,31 +728,13 @@ Connectors:
     components: ["CN651"]
     rare: yes
 
-Diverse:
-  - id: 390924-01
-    part: "Varistor Switch, Self Resetting 1.85A"
-    quantity: 1
-    components: ["F175"]
-    mouser: {id: "652-MFR185"}
+Sockets:
   - id: 390719-01
     part: "Socket, single pin, .040 hole"
     quantity: 8
     components: ["U104", "U154"]
+    remark: "Oscillators"
     mouser: {id: "571-6-5330808-5"}
-  - id: 380393-02
-    part: "Battery, NiCd 3.6V 680mAh 3/60DK"
-    quantity: 1
-    components: ["BT176"]
-    remark: "Not recommended"
-  - id: 391138-05
-    part: "Inductor, 47µH"
-    package: "1210"
-    quantity: 1
-    components: ["L500"]
-    remark: "L500 can be left out on Acill boards"
-    mouser: {id: "652-CC453232-470KL"}
-
-Optionals:
   - part: "Socket, DIP18"
     package: "DIP18"
     quantity: 1
@@ -821,3 +785,40 @@ Optionals:
     components: ["U150", "U211", "U450", "U700", "U890"]
     remark: "Alice, Lisa, Fat Gary, Fat Ramsey, Fat Buster"
     mouser: {id: "517-8484-21A1-RK-TP"}
+
+Other:
+  - id: 391559-01
+    part: "Filter, Ferrite"
+    package: "1812"
+    quantity: 12
+    components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
+    mouser: {id: "623-2518065007Y6", replacement: yes}
+  - id: 391092-03
+    part: "Filter, Ferrite"
+    package: "1206"
+    quantity: 17
+    components: ["ER976", "ER977", "ER978", "ER979", "ER980", "ER981", "ER982", "ER983", "ER984", "ER985", "ER986", "ER987", "ER988", "ER989", "FB410", "FB411", "FB710"]
+    mouser: {id: "623-2512061517Y3"}
+  - id: 391138-05
+    part: "Inductor, 47µH"
+    package: "1210"
+    quantity: 1
+    components: ["L500"]
+    remark: "L500 can be left out on Acill boards"
+    mouser: {id: "652-CC453232-470KL"}
+  - id: 390924-01
+    part: "Varistor Switch, Self Resetting 1.85A"
+    quantity: 1
+    components: ["F175"]
+    mouser: {id: "652-MFR185"}
+  - id: 380393-02
+    part: "Battery, NiCd 3.6V 680mAh 3/60DK"
+    quantity: 1
+    components: ["BT176"]
+    remark: "Not recommended"
+  - id: 390043-01
+    part: "Shorting Bars"
+    quantity: 13
+    components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
+    remark: "Jumpers"
+    mouser: {id: "200-SNT100BKG"}
