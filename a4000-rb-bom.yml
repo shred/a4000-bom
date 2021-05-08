@@ -606,6 +606,20 @@ Resistors:
     components: ["RP176"]
     mouser: {id: "652-4608X-1LF-10K"}
 
+"Ferrites":
+  - id: 391559-01
+    part: "Filter, Ferrite"
+    package: "1812"
+    quantity: 12
+    components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
+    mouser: {id: "623-2518065007Y6", replacement: yes}
+  - id: 391092-03
+    part: "Filter, Ferrite"
+    package: "1206"
+    quantity: 17
+    components: ["ER976", "ER977", "ER978", "ER979", "ER980", "ER981", "ER982", "ER983", "ER984", "ER985", "ER986", "ER987", "ER988", "ER989", "FB410", "FB411", "FB710"]
+    mouser: {id: "623-2512061517Y3"}
+
 Oscillators:
   - id: 325566-27
     part: "50 MHz Oscillator, metal"
@@ -781,19 +795,7 @@ Sockets:
     remark: "Alice, Lisa, Fat Gary, Fat Ramsey, Fat Buster"
     mouser: {id: "517-8484-21A1-RK-TP"}
 
-Other:
-  - id: 391559-01
-    part: "Filter, Ferrite"
-    package: "1812"
-    quantity: 12
-    components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
-    mouser: {id: "623-2518065007Y6", replacement: yes}
-  - id: 391092-03
-    part: "Filter, Ferrite"
-    package: "1206"
-    quantity: 17
-    components: ["ER976", "ER977", "ER978", "ER979", "ER980", "ER981", "ER982", "ER983", "ER984", "ER985", "ER986", "ER987", "ER988", "ER989", "FB410", "FB411", "FB710"]
-    mouser: {id: "623-2512061517Y3"}
+Various:
   - id: 391138-05
     part: "Inductor, 47µH"
     package: "1210"
