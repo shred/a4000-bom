@@ -85,9 +85,9 @@ def xlsxExport(data):
                 worksheet.write(row, 6, ' '.join(item['components']), fmtComponents)
 
     footer = [
-        fmtBold, 'Amiga 4000D Bill of Material – ', 'Version: {} ({})\n'.format(data['version'], data['date']),
-        'Source and latest version at GitHub: ', 'https://github.com/shred/a4000-bom\n',
-        'License: ', 'GNU General Public License (GPLv3)\n',
+        fmtBold, '{} Bill of Material – '.format(data['project']), 'Version: {} ({})\n'.format(data['version'], data['date']),
+        'Source and latest version at {}: '.format(data['source']['repo']), '{}\n'.format(data['source']['url']),
+        'License: ', '{}\n'.format(data['license']['type']),
         fmtBold, 'This content is provided "as is" and without warranties of any kind either expressed or implied.'
     ]
     row += 2
@@ -113,12 +113,9 @@ for filename in filenames:
 
 with open("a4000-rb-bom.yml", 'r') as stream:
     raw = list(yaml.safe_load_all(stream))
-    data = {
-        'version': raw[0]['version'],
-        'date': raw[0]['date'],
-        'bom': raw[1],
-        'content': content,
-    }
+    data = dict(raw[0])
+    data['bom'] = raw[1]
+    data['content'] = content
 
 validate(data['bom'])
 

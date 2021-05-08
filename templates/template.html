@@ -3,17 +3,17 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="css/style.css">
-    <title>Amiga 4000D Rev B: Bill of Material</title>
+    <title>{{ project|e }}: Bill of Material</title>
   </head>
   <body>
     <header>
-      <a href="index.html">Amiga 4000D Rev B: Bill of Material</a>
+      <a href="index.html">{{ project|e }}: Bill of Material</a>
     </header>
     <article>{% block content %}{% endblock %}</article>
     <footer>
-      <strong>Amiga 4000D Bill of Material</strong>, Version: {{ version }} ({{ date }})<br />
-      Source at <a class="printable" href="https://github.com/shred/a4000-bom">GitHub</a> &ndash;
-      License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a><br />
+      <strong>{{ project|e }} Bill of Material</strong>, Version: {{ version }} ({{ date }})<br />
+      Source at <a class="printable" href="{{ source.url }}">{{ source.repo|e }}</a> &ndash;
+      License: <a href="{{ license.url }}">{{ license.type|e }}</a><br />
       <strong>This content is provided "as is" and without warranties of any kind either expressed or implied.</strong>
     </footer>
   </body>
