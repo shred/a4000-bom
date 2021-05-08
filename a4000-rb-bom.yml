@@ -1,7 +1,7 @@
 # A4000D Rev B Bill of Material
 ---
-version: 0.9
-date: 2021-05-08
+version: "0.10"
+date: "2021-05-08"
 ---
 
 Board:
@@ -548,8 +548,8 @@ Resistors:
   - id: 310026-46
     part: "3.3kΩ - 1/8W, 5%"
     package: "1206"
-    quantity: 8
-    components: ["R151", "R355", "R356", "R357", "R358", "R359", "R360", "R361"]
+    quantity: 3
+    components: ["R151", "R360", "R361"]
     mouser: {id: "667-ERJ-8ENF3301V"}
   - id: 310026-08
     part: "4.7kΩ - 1/8W, 5%"
@@ -560,8 +560,8 @@ Resistors:
   - id: 310026-17
     part: "10kΩ - 1/8W, 5%"
     package: "1206"
-    quantity: 16
-    components: ["R208", "R305", "R306", "R403A", "R403B", "R403E", "R403F", "R406", "R408", "R431", "R432", "R441", "R442", "R456", "R457", "R514"]
+    quantity: 21
+    components: ["R208", "R305", "R306", "R355", "R356", "R357", "R358", "R359", "R403A", "R403B", "R403E", "R403F", "R406", "R408", "R431", "R432", "R441", "R442", "R456", "R457", "R514"]
     mouser: {id: "667-ERJ-8ENF1002V"}
   - id: 310026-55
     part: "11kΩ - 1/8W, 5%"
