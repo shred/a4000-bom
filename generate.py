@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import re
+import xlsxwriter
 import yaml
 from functools import cmp_to_key
 from jinja2 import Environment, FileSystemLoader
@@ -46,6 +47,57 @@ def validate(bom):
                 print('    components: ["{}"]'.format('", "'.join(expected)))
                 raise ValueError('Part "{}": Incorrect component order'.format(reference))
 
+def xlsxExport(data):
+    workbook = xlsxwriter.Workbook('docs/a4000-bom.xlsx')
+    worksheet = workbook.add_worksheet()
+    worksheet.freeze_panes(1, 0)
+    fmtTitle = workbook.add_format({'bold': True, 'bg_color': '#f47176'})
+    fmtSection = workbook.add_format({'bold': True, 'bg_color': '#e6e6e6'})
+    fmtFooter = workbook.add_format({'bg_color': '#83a9d8', 'valign': 'vcenter', 'indent': 2})
+    fmtComponents = workbook.add_format({'text_wrap': True})
+    fmtBold = workbook.add_format({'bold': True})
+
+    row = 0
+    titles = ['Part Id', 'Qty', 'Part', 'Remark', 'Package', 'Mouser', 'Components']
+    widths = [      10 ,    5 ,    50 ,      50 ,       10 ,      25 ,          60 ]
+    for c in range(0, len(titles)):
+        worksheet.set_column(c, c, widths[c])
+        worksheet.write(row, c, titles[c], fmtTitle)
+
+    for (title, sect) in data['bom'].items():
+        row += 1
+        worksheet.merge_range(row, 0, row, 6, title, fmtSection)
+        for item in sect:
+            row += 1
+            if 'id' in item:
+                worksheet.write(row, 0, item['id'])
+            worksheet.write(row, 1, item['quantity'])
+            worksheet.write(row, 2, item['part'])
+            if 'remark' in item:
+                worksheet.write(row, 3, item['remark'])
+            if 'package' in item:
+                worksheet.write(row, 4, item['package'])
+            if 'mouser' in item:
+                mid = item['mouser']['id']
+                mlink = 'https://www.mouser.com/ProductDetail/{}'.format(mid)
+                worksheet.write_url(row, 5, mlink, string=mid)
+            if 'components' in item:
+                worksheet.write(row, 6, ' '.join(item['components']), fmtComponents)
+
+    footer = [
+        fmtBold, 'Amiga 4000D Bill of Material – ', 'Version: {} ({})\n'.format(data['version'], data['date']),
+        'Source and latest version at GitHub: ', 'https://github.com/shred/a4000-bom\n',
+        'License: ', 'GNU General Public License (GPLv3)\n',
+        fmtBold, 'This content is provided "as is" and without warranties of any kind either expressed or implied.'
+    ]
+    row += 2
+    worksheet.set_row(row, 60)
+    worksheet.merge_range(row, 0, row, 6, '')
+    worksheet.write_rich_string(row, 0, *footer, fmtFooter)
+
+    workbook.close()
+
+
 
 env = Environment(
     loader=FileSystemLoader('templates'),
@@ -81,3 +133,5 @@ with open('docs/a4000-bom.html', 'w') as out:
 with open('docs/csv.html', 'w') as out:
     template = env.get_template('csv.html')
     out.write(template.render(data))
+
+xlsxExport(data)
