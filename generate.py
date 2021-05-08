@@ -43,7 +43,7 @@ def validate(bom):
             expected = list(comps)
             expected.sort(key=cmp_to_key(compare))
             if expected != comps:
-                print('    components: ["{}"]'.format(part, '", "'.join(expected)))
+                print('    components: ["{}"]'.format('", "'.join(expected)))
                 raise ValueError('Part "{}": Incorrect component order'.format(reference))
 
 
