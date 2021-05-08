@@ -1,6 +1,6 @@
 # A4000D Rev B Bill of Material
 ---
-version: 0.8
+version: 0.9
 date: 2021-05-08
 ---
 
@@ -340,8 +340,8 @@ Capacitors:
   - id: 390818-04
     part: "47pF - MLC, NPO"
     package: "1206"
-    quantity: 15
-    components: ["EC350", "EC351", "EC352", "EC353", "EC354", "EC355", "EC356", "EC357", "EC358", "EC359", "EC360", "EC361", "EC362", "EC363", "EC364"]
+    quantity: 29
+    components: ["EC350", "EC351", "EC352", "EC353", "EC354", "EC355", "EC356", "EC357", "EC358", "EC359", "EC360", "EC361", "EC362", "EC363", "EC364", "EC976", "EC977", "EC978", "EC979", "EC980", "EC981", "EC982", "EC983", "EC984", "EC985", "EC986", "EC987", "EC988", "EC989"]
     mouser: {id: "80-C1206C470J1G"}
   - id: 390818-05
     part: "56pF - MLC, NPO"
@@ -352,8 +352,8 @@ Capacitors:
   - id: 390818-06
     part: "100pF - MLC, NPO"
     package: "1206"
-    quantity: 58
-    components: ["EC182", "EC183", "EC184", "EC300", "EC301", "EC302", "EC303", "EC304", "EC305", "EC306", "EC307", "EC308", "EC309", "EC365", "EC366", "EC367", "EC368", "EC369", "EC370", "EC371", "EC372", "EC373", "EC374", "EC375", "EC376", "EC377", "EC378", "EC379", "EC410", "EC411", "EC451", "EC452", "EC453", "EC454", "EC455", "EC456", "EC457", "EC458", "EC459", "EC460", "EC461", "EC462", "EC463", "EC464", "EC976", "EC977", "EC978", "EC979", "EC980", "EC981", "EC982", "EC983", "EC984", "EC985", "EC986", "EC987", "EC988", "EC989"]
+    quantity: 44
+    components: ["EC182", "EC183", "EC184", "EC300", "EC301", "EC302", "EC303", "EC304", "EC305", "EC306", "EC307", "EC308", "EC309", "EC365", "EC366", "EC367", "EC368", "EC369", "EC370", "EC371", "EC372", "EC373", "EC374", "EC375", "EC376", "EC377", "EC378", "EC379", "EC410", "EC411", "EC451", "EC452", "EC453", "EC454", "EC455", "EC456", "EC457", "EC458", "EC459", "EC460", "EC461", "EC462", "EC463", "EC464"]
     mouser: {id: "80-C1206C101JDG"}
   - id: 390818-10
     part: "330pF - MLC, NPO"
