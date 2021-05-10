@@ -2,8 +2,8 @@
 ---
 project: "Amiga 4000D Rev B"
 base: "https://shred.github.io/a4000-bom/"
-version: "0.10"
-date: "2021-05-08"
+version: "0.11"
+date: "2021-05-10"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/a4000-bom"
@@ -666,7 +666,7 @@ Connectors:
     part: "12 Pin DIL Header"
     quantity: 1
     components: ["J975"]
-    mouser: {id: "649-1012938191203BLF"}
+    mouser: {id: "649-67997-212HLF"}
   - id: 903345-17
     part: "34 Pin DIL Header"
     quantity: 1
@@ -676,17 +676,17 @@ Connectors:
     part: "40 Pin DIL Header"
     quantity: 1
     components: ["CN900"]
-    mouser: {id: "649-861400402YO2LF"}
+    mouser: {id: "649-67997-240HLF"}
   - id: 903326-02
     part: "2 Pin SIL Header"
     quantity: 2
     components: ["J351", "J850"]
-    mouser: {id: "649-1012937890203BLF"}
+    mouser: {id: "649-68001-202HLF"}
   - id: 903326-03
     part: "3 Pin SIL Header"
     quantity: 15
     components: ["CN200", "CN302", "CN303", "CN404", "J100", "J104", "J151", "J212", "J213", "J214", "J352", "J500", "J501", "J502", "J852"]
-    mouser: {id: "649-1012937890303BLF"}
+    mouser: {id: "649-68001-203HLF"}
   - id: 390242-01
     part: "D-Sub DB-9 Male"
     quantity: 2
