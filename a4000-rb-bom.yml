@@ -2,7 +2,7 @@
 ---
 project: "Amiga 4000D Rev B"
 base: "https://shred.github.io/a4000-bom/"
-version: "0.11"
+version: "0.12"
 date: "2021-05-10"
 source:
   repo: "GitHub"
@@ -616,17 +616,17 @@ Resistors:
 
 Ferrites:
   - id: 391559-01
-    part: "Filter, Ferrite"
+    part: "47Ω @ 100MHz, 5A"
     package: "1812"
     quantity: 12
     components: ["FB177", "FB308", "FB309", "FB364", "FB365", "FB366", "FB401", "FB462", "FB463", "FB464", "FB476", "FB975"]
     mouser: {id: "623-2518065007Y6", replacement: yes}
   - id: 391092-03
-    part: "Filter, Ferrite"
+    part: "600Ω @ 100MHz, 200mA"
     package: "1206"
     quantity: 17
     components: ["ER976", "ER977", "ER978", "ER979", "ER980", "ER981", "ER982", "ER983", "ER984", "ER985", "ER986", "ER987", "ER988", "ER989", "FB410", "FB411", "FB710"]
-    mouser: {id: "623-2512061517Y3"}
+    mouser: {id: "81-BLM31AJ601SH1L"}
 
 Oscillators:
   - id: 325566-27
