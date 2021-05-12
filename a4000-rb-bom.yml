@@ -2,8 +2,8 @@
 ---
 project: "Amiga 4000D Rev B"
 base: "https://shred.github.io/a4000-bom/"
-version: "0.12"
-date: "2021-05-10"
+version: "0.13"
+date: "2021-05-12"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/a4000-bom"
@@ -810,7 +810,7 @@ Various:
     quantity: 1
     components: ["L500"]
     remark: "L500 can be left out on Acill boards"
-    mouser: {id: "652-CC453232-470KL"}
+    mouser: {id: "963-CBC3225T470MRV"}
   - id: 390924-01
     part: "Varistor Switch, Self Resetting 1.85A"
     quantity: 1
