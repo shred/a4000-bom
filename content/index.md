@@ -14,11 +14,13 @@ This is the Bill of Material for a replica Amiga 4000D Rev B. It is optimized fo
 
 ## Read Me First!
 
-If you want to build your own Amiga, be aware that the machine was designed in the early 1990s. While almost all of the standard components are still available today, some components are very rare by now.
+If you want to build your own Amiga, be aware that the machine was designed in the early 1990s.
 
-You will need all of the listed components for a working mainboard. We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
+While almost all of the standard components are still available, some components are very rare by now. You will need *all* of the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
 
-Also be aware that there are six PALs on the list. While the JEDEC files are [available at the Amiga Wiki](http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000), a GAL capable programmer is required for "flashing" the corresponding GALs. They cannot be programmed in-circuit.
+Also be aware that there are six PALs that need to be programmed. While the JEDEC files are [available at the Amiga Wiki](http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000), a GAL capable programmer is required for "flashing" the corresponding GALs. They cannot be programmed in-circuit.
+
+As the Amiga mainboard does not comply to the ATX form factor, you cannot use a standard PC case and a PC power supply without careful selection and manual changes.
 
 This bill of material only comprises of the components required for the mainboard itself. **The absolute bare minimum for a booting machine is:**
 
@@ -41,7 +43,7 @@ See [this article](http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide
 
 This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are *not* part of this project.
 
-This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. There are good arguments for both types, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.
+This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.
 
 ## Sockets
 
