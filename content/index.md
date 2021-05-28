@@ -18,12 +18,12 @@ If you want to build your own Amiga, be aware that the machine was designed in t
 
 You will need all of the listed components for a working mainboard. We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
 
-Also be aware that there are six PALs on the list. While the JEDEC files are [available at the Amiga Wiki](http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000), a GAL capable programmer is required for "flashing" the corresponding GALs. They cannot be programmed in-circuit. We also recommend to use PLCC sockets, as it might turn out after first tests that they need to be reprogrammed.
+Also be aware that there are six PALs on the list. While the JEDEC files are [available at the Amiga Wiki](http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000), a GAL capable programmer is required for "flashing" the corresponding GALs. They cannot be programmed in-circuit.
 
-This bill of material only comprises of the components required for the mainboard itself. **The absolute bare minimum for a working machine is:**
+This bill of material only comprises of the components required for the mainboard itself. **The absolute bare minimum for a booting machine is:**
 
 * This mainboard, fully assembled and tested
-* A power supply
+* A power supply (and a Mate-N-Lok connector/adapter unless an original PSU is used)
 * A CPU board
 * One 2MB SIMM for the Chip RAM
 
@@ -42,6 +42,16 @@ See [this article](http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide
 This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are *not* part of this project.
 
 This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. There are good arguments for both types, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.
+
+## Sockets
+
+This list contains sockets for all chips in DIP and PLCC packages for your convenience. It is of course up to you if you want to use all of them.
+
+On an original Amiga 4000D board, only U103, U175, U176, and U700 are socketed. It may also be helpful to use sockets for all GAL chips, as they may need to be reprogrammed if it should turn out that a wrong JEDEC file was used.
+
+It is disputed if all custom chips should be seated in PLCC sockets. On the one hand, it would not be needed to solder in the rare custom chips, and it would also be easy to remove them later. On the other hand, there may be signal problems caused by the sockets that may be hard to trace.
+
+Also note that the sockets of U700 and U714 are very close together. It might be difficult to solder in both of them correctly.
 
 ## Disclaimer
 
