@@ -2,8 +2,8 @@
 ---
 project: "Amiga 4000D Rev B"
 base: "https://shred.github.io/a4000-bom/"
-version: "0.13"
-date: "2021-05-12"
+version: "0.14"
+date: "2021-05-28"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/a4000-bom"
@@ -745,7 +745,32 @@ Connectors:
     components: ["CN651"]
     rare: yes
 
-Sockets:
+Various:
+  - id: 391138-05
+    part: "Inductor, 47µH"
+    package: "1210"
+    quantity: 1
+    components: ["L500"]
+    remark: "L500 can be left out on Acill boards"
+    mouser: {id: "963-CBC3225T470MRV"}
+  - id: 390924-01
+    part: "Varistor Switch, Self Resetting 1.85A"
+    quantity: 1
+    components: ["F175"]
+    mouser: {id: "652-MFR185"}
+  - id: 380393-02
+    part: "Battery, NiCd 3.6V 680mAh 3/60DK"
+    quantity: 1
+    components: ["BT176"]
+    remark: "Not recommended"
+  - id: 390043-01
+    part: "Shorting Bars"
+    quantity: 13
+    components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
+    remark: "Jumpers"
+    mouser: {id: "200-SNT100BKG"}
+
+"Sockets (optional)":
   - id: 390719-01
     part: "Socket, single pin, .040 hole"
     quantity: 8
@@ -803,27 +828,12 @@ Sockets:
     remark: "Alice, Lisa, Fat Gary, Fat Ramsey, Fat Buster"
     mouser: {id: "517-8484-21A1-RK-TP"}
 
-Various:
-  - id: 391138-05
-    part: "Inductor, 47µH"
-    package: "1210"
+"Power Plug (optional)":
+  - part: "Mate-N-Lok 6P Plug Housing"
     quantity: 1
-    components: ["L500"]
-    remark: "L500 can be left out on Acill boards"
-    mouser: {id: "963-CBC3225T470MRV"}
-  - id: 390924-01
-    part: "Varistor Switch, Self Resetting 1.85A"
-    quantity: 1
-    components: ["F175"]
-    mouser: {id: "652-MFR185"}
-  - id: 380393-02
-    part: "Battery, NiCd 3.6V 680mAh 3/60DK"
-    quantity: 1
-    components: ["BT176"]
-    remark: "Not recommended"
-  - id: 390043-01
-    part: "Shorting Bars"
-    quantity: 13
-    components: ["J100", "J104", "J151", "J212", "J213", "J214", "J351", "J352", "J500", "J501", "J502", "J850", "J852"]
-    remark: "Jumpers"
-    mouser: {id: "200-SNT100BKG"}
+    remark: "Counterpart for CN160"
+    mouser: {id: "571-14807049"}
+  - part: "Mate-N-Lok Pin 20-14 AWG"
+    quantity: 6
+    remark: "Matching pins, crimping tool required"
+    mouser: {id: "571-3505471"}

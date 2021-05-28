@@ -24,11 +24,11 @@
 <h2>Read Me First!</h2>
 <p>If you want to build your own Amiga, be aware that the machine was designed in the early 1990s. While almost all of the standard components are still available today, some components are very rare by now.</p>
 <p>You will need all of the listed components for a working mainboard. We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won&rsquo;t waste your money on standard components if you fail to get all the rare ones.</p>
-<p>Also be aware that there are six PALs on the list. While the JEDEC files are <a href="http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000">available at the Amiga Wiki</a>, a GAL capable programmer is required for &ldquo;flashing&rdquo; the corresponding GALs. They cannot be programmed in-circuit. We also recommend to use PLCC sockets, as it might turn out after first tests that they need to be reprogrammed.</p>
-<p>This bill of material only comprises of the components required for the mainboard itself. <strong>The absolute bare minimum for a working machine is:</strong></p>
+<p>Also be aware that there are six PALs on the list. While the JEDEC files are <a href="http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000">available at the Amiga Wiki</a>, a GAL capable programmer is required for &ldquo;flashing&rdquo; the corresponding GALs. They cannot be programmed in-circuit.</p>
+<p>This bill of material only comprises of the components required for the mainboard itself. <strong>The absolute bare minimum for a booting machine is:</strong></p>
 <ul>
 <li>This mainboard, fully assembled and tested</li>
-<li>A power supply</li>
+<li>A power supply (and a Mate-N-Lok connector/adapter unless an original PSU is used)</li>
 <li>A CPU board</li>
 <li>One 2MB SIMM for the Chip RAM</li>
 </ul>
@@ -44,6 +44,11 @@
 <h2>Battery and Capacitors</h2>
 <p>This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are <em>not</em> part of this project.</p>
 <p>This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but <em>may</em> cause other problems. There are good arguments for both types, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.</p>
+<h2>Sockets</h2>
+<p>This list contains sockets for all chips in DIP and PLCC packages for your convenience. It is of course up to you if you want to use all of them.</p>
+<p>On an original Amiga 4000D board, only U103, U175, U176, and U700 are socketed. It may also be helpful to use sockets for all GAL chips, as they may need to be reprogrammed if it should turn out that a wrong JEDEC file was used.</p>
+<p>It is disputed if all custom chips should be seated in PLCC sockets. On the one hand, it would not be needed to solder in the rare custom chips, and it would also be easy to remove them later. On the other hand, there may be signal problems caused by the sockets that may be hard to trace.</p>
+<p>Also note that the sockets of U700 and U714 are very close together. It might be difficult to solder in both of them correctly.</p>
 <h2>Disclaimer</h2>
 <p>This is not an official list! It was collected and reviewed by Amiga enthusiasts.</p>
 <p>Although we strive to make the information in this project as helpful and accurate as possible, it is provided &ldquo;as is&rdquo; and without warranties of any kind either expressed or implied.</p>
@@ -64,7 +69,7 @@
 <p>This project is distributed under the terms of <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a>.</p>
 </article>
     <footer>
-      <strong>Amiga 4000D Rev B Bill of Material</strong>, Version: 0.13 (2021-05-12)<br />
+      <strong>Amiga 4000D Rev B Bill of Material</strong>, Version: 0.14 (2021-05-28)<br />
       Source at <a class="printable" href="https://github.com/shred/a4000-bom">GitHub</a> &ndash;
       License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a><br />
       <strong>This content is provided "as is" and without warranties of any kind either expressed or implied.</strong>
