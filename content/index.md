@@ -27,17 +27,17 @@ This bill of material only comprises of the components required for the mainboar
 * This mainboard, fully assembled and tested
 * A power supply (and a Mate-N-Lok connector/adapter unless an original PSU is used)
 * A CPU board
-* One 2MB SIMM for the Chip RAM
+* One 2MB SIMM module (**double** sided) for Chip RAM
 
 For a complete Amiga 4000D you also need:
 
 * A computer case (and the skills to make it fit unless it's the original case)
-* One to four 4MB SIMMs for Fast RAM
+* Up to four 4MB SIMM modules (**single** sided) for Fast RAM
 * An Amiga 4000 daughterboard
 * An Amiga keyboard and Amiga mouse
 * Hard disk drives and floppy disk drives at your discretion
 
-See [this article](http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide/node0162.html) for the SIMM types.
+For the SIMMs, standard PS/2 72-pin modules can be used (FPM or EDO, parity bit on 36 bit SIMMs will be ignored). Access time must be 80ns or faster. For the Fast RAM 60ns modules should be preferred, as the Amiga can be switched to 60ns access time via software. See [this article](http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide/node0162.html) for more details about suitable SIMM types.
 
 ## Battery and Capacitors
 
