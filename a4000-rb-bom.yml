@@ -75,11 +75,13 @@ Board:
     package: "DIP40"
     quantity: 1
     components: ["U176"]
+    remark: "Replace with AM27C400, MX27C4100 or similar"
   - id: 391514-02
     part: "HN62402, 150ns, Kickstart ROM \"High\""
     package: "DIP40"
     quantity: 1
     components: ["U175"]
+    remark: "Replace with AM27C400, MX27C4100 or similar"
   - id: 390525-01
     part: "Ricoh RP5C01, Real Time Clock"
     package: "DIP18"
