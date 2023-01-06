@@ -73,8 +73,16 @@ td:last-child {
     border-right: 1px solid #e6e6e6;
 }
 
+tr:hover {
+    background-color: #c5d7ed;
+}
+
 tr:nth-child(even) {
     background-color: whitesmoke;
+}
+
+tr:nth-child(even):hover {
+    background-color: #c5d7ed;
 }
 
 tr:last-child td {
