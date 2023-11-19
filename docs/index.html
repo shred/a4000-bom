@@ -44,7 +44,9 @@
 <p>For the SIMMs, standard PS/2 72-pin modules can be used (FPM or EDO, parity bit on 36 bit SIMMs will be ignored). Access time must be 80ns or faster. For the Fast RAM 60ns modules should be preferred, as the Amiga can be switched to 60ns access time via software. See <a href="http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide/node0162.html">this article</a> for more details about suitable SIMM types.</p>
 <h2>Battery and Capacitors</h2>
 <p>This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are <em>not</em> part of this project.</p>
-<p>This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but <em>may</em> cause other problems. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get the best quality that money can buy.</p>
+<p>This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but <em>may</em> cause other problems. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.</p>
+<h2>U103</h2>
+<p>For most cases, U103 needs to be populated with an 74FCT244T. However, some CPU boards (e.g. A3640 Rev 3.0) require a 74FCT240 here instead. It is recommended to use a socket for this chip, so it can easily be exchanged. Symptom for a wrong chip type is that the Amiga only shows a black screen and won&rsquo;t start at all, while it works perfectly with other CPU boards.</p>
 <h2>Sockets</h2>
 <p>This list contains sockets for all chips in DIP and PLCC packages for your convenience. It is of course up to you if you want to use all of them.</p>
 <p>On an original Amiga 4000D board, only U103, U175, U176, and U700 are socketed. It may also be helpful to use sockets for all GAL chips, as they may need to be reprogrammed if it should turn out that a wrong JEDEC file was used.</p>
@@ -70,7 +72,7 @@
 <p>This project is distributed under the terms of <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a>.</p>
 </article>
     <footer>
-      <strong>Amiga 4000D Rev B Bill of Material</strong>, Version: 0.15 (2022-11-02)<br />
+      <strong>Amiga 4000D Rev B Bill of Material</strong>, Version: 0.16 (2023-11-19)<br />
       Source at <a class="printable" href="https://github.com/shred/a4000-bom">GitHub</a> &ndash;
       License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a><br />
       <strong>This content is provided "as is" and without warranties of any kind either expressed or implied.</strong>
