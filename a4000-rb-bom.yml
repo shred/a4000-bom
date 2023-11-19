@@ -2,8 +2,8 @@
 ---
 project: "Amiga 4000D Rev B"
 base: "https://shred.github.io/a4000-bom/"
-version: "0.15"
-date: "2022-11-02"
+version: "0.16"
+date: "2023-11-19"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/a4000-bom"
@@ -259,6 +259,7 @@ Board:
     mouser: {id: "771-HCT166D653"}
   - id: 391400-01
     part: "74FCT244T, 8-Bit Tri-State Buffer"
+    remark: "or 74FCT240, depending on CPU board"
     package: "DIP20"
     quantity: 1
     components: ["U103"]
@@ -790,7 +791,7 @@ Various:
     package: "DIP20"
     quantity: 1
     components: ["U103"]
-    remark: "74FCT244T"
+    remark: "74FCT244T / 74FCT240"
     mouser: {id: "575-11044320"}
   - id: 904150-06
     part: "Socket, DIP40"

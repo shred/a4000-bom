@@ -45,6 +45,10 @@ This Bill of Material includes a NiCd battery as buffer for the RTC. These batte
 
 This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
 
+## U103
+
+For most cases, U103 needs to be populated with an 74FCT244T. However, some CPU boards (e.g. A3640 Rev 3.0) require a 74FCT240 here instead. It is recommended to use a socket for this chip, so it can easily be exchanged. Symptom for a wrong chip type is that the Amiga only shows a black screen and won't start at all, while it works perfectly with other CPU boards.
+
 ## Sockets
 
 This list contains sockets for all chips in DIP and PLCC packages for your convenience. It is of course up to you if you want to use all of them.
