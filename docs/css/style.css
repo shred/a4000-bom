@@ -42,6 +42,10 @@ a:hover {
     text-decoration: underline;
 }
 
+li {
+    margin-bottom: 0.5rem;
+}
+
 table {
     width: 100%;
     border: none;
@@ -184,6 +188,7 @@ a.msr {
 
 .toc ul li {
     padding-left: .5rem;
+    margin-bottom: 0;
 }
 
 .toc ul li a {
