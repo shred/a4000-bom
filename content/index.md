@@ -4,8 +4,9 @@
   <li><a href="index.html">Introduction</a> &ndash; this page</li>
   <li><a href="a4000-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
   <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
-  <li><a href="a4000-bom.xlsx">Excel Export</a> &ndash; for your spreadsheet application</li>
+  <li><a href="a4000-bom.xlsx">Excel File Download</a> &ndash; for your spreadsheet application</li>
   <li><a href="https://github.com/shred/a4000-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
+  <li><a href="other.html">Other Bill of Materials</a> &ndash; if you liked this one</li>
 </ul></div>
 
 # Introduction
