@@ -43,7 +43,7 @@ For the SIMMs, standard PS/2 72-pin modules can be used (FPM or EDO, parity bit 
 
 This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are *not* part of this project.
 
-This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic capacitors instead. They cannot leak, but *may* cause other problems. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
+This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic or tantalum capacitors instead. They cannot leak, but they have other disadvantages. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
 
 ## U103
 
