@@ -19,7 +19,7 @@ If you want to build your own Amiga, be aware that the machine was designed in t
 
 While almost all of the standard components are still available, some components are very rare by now. You will need *all* of the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
 
-Also be aware that there are six PALs that need to be programmed. While the JEDEC files are [available at the Amiga Wiki](http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000), a GAL capable programmer is required for "flashing" the corresponding GALs. They cannot be programmed in-circuit.
+Also be aware that there are six PALs that need to be programmed. They cannot be programmed in-circuit, so you will need a GAL capable programmer.
 
 As the Amiga mainboard does not comply to the ATX form factor, you cannot use a standard PC case and a PC power supply without careful selection and manual changes.
 
@@ -40,11 +40,31 @@ For a complete Amiga 4000D you also need:
 
 For the SIMMs, standard PS/2 72-pin modules can be used (FPM or EDO, parity bit on 36 bit SIMMs will be ignored). Access time must be 80ns or faster. For the Fast RAM 60ns modules should be preferred, as the Amiga can be switched to 60ns access time via software. See [this article](http://amigadev.elowar.com/read/ADCD_2.1/AmigaMail_Vol2_guide/node0162.html) for more details about suitable SIMM types.
 
-## Battery and Capacitors
+## GALs
 
-This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s. It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are *not* part of this project.
+The JEDEC files for programming the GALs are [available at the Amiga Wiki](http://www.amigawiki.de/doku.php?id=en:parts:pld_download#a4000).
 
-This list also includes regular electrolytic capacitors, which may leak and cause damage over the years as well. Some people prefer to use ceramic or tantalum capacitors instead. They cannot leak, but they have other disadvantages. There are good arguments on both sides, so the final choice is up to you. However, if you decide to use electrolytic capacitors, we recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
+There is a "PIO2 Mod" that enhances the speed of the internal IDE interface by supporting the PIO2 transfer mode. The patched fusemaps for U901 and U902 can be [found here](https://www.amigawiki.org/doku.php?id=de:projects:pio2mode) (German language only).
+
+Note that classic GALs are no longer produced. In the component list, Atmel ATF16V8B and ATF22V10C are linked as proposed replacement. While the ATF16V8B type is a drop-in replacement that _should_ work, the ATF22V10C is a bit different as it has no internal input pull-up resistors. This _should_ make no difference here, but if you find an affordable ATF22V10**B** type, you should prefer it.
+
+There is no confirmation yet that the Atmel chips are actually working replacements. **If in doubt, use <abbr title="New Old Stock">NOS</abbr> GALs!**
+
+If you use the Atmel chips, we would appreciate your feedback (both positive and negative).
+
+## Electrolytic Capacitors
+
+This list also includes regular electrolytic capacitors, which can leak and cause damage to the board as they age. You should prefer to use capacitors with a higher voltage rating and a maximum temperature of at least 85°C, to extend their lifetime. We recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
+
+Some people prefer to use ceramic or tantalum capacitors instead. They cannot leak, but they have other disadvantages. There are good arguments for and against, so the final choice is up to you.
+
+## Battery
+
+This Bill of Material includes a NiCd battery as buffer for the RTC. These batteries tend to leak over the years, and certainly killed a lot of classic Amiga 4000s.
+
+It is advisable to use a different type of energy source, like a button cell. However, the necessary components and modifications are *not* part of this project.
+
+**Caution:** Do not use a non-rechargeable battery here, without the necessary hardware modifications. There is a danger of fire or explosion.
 
 ## U103
 
