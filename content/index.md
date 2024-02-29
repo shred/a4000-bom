@@ -5,6 +5,7 @@
   <li><a href="a4000-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
   <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
   <li><a href="a4000-bom.xlsx">Excel File Download</a> &ndash; for your spreadsheet application</li>
+  <li><a href="diffs.html">Known Discrepancies</a> &ndash; in our sources</li>
   <li><a href="https://github.com/shred/a4000-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
   <li><a href="other.html">Other Bill of Materials</a> &ndash; if you liked this one</li>
 </ul></div>
@@ -80,6 +81,12 @@ It is disputed if all custom chips should be seated in PLCC sockets. On the one 
 
 Also note that the sockets of U700 and U714 are very close together. It might be difficult to solder in both of them correctly.
 
+## Acill Board
+
+If you rebuild an Amiga with Acill's replica board, make sure to populate R465. L500 can be left out, as it is not connected anywhere. If R465 is missing, you will get a very dark or even black video signal, because the video DAC has no output reference voltage.
+
+On original Commodore boards, L500 is populated, and R465 is usually left out.
+
 ## Disclaimer
 
 This is not an official list! It was collected and reviewed by Amiga enthusiasts.
@@ -89,15 +96,6 @@ Although we strive to make the information in this project as helpful and accura
 In other words: You might spend a lot of money, and end up with a non-functioning mainboard or a cardboard box full of useless components.
 
 **Use at your own risk!**
-
-## Sources
-
-The following sources have been used:
-
-* AmigaWiki: [A4000 Rev B Schematic](http://www.amigawiki.de/dnl/schematics/A4000_Rb.pdf)
-* Acill: [A4000 Replica Project](https://github.com/Acill/A4000RevB)
-* Chucky: [Component Locator, A4000 RevB - Acill](http://locator.reamiga.info/locator.php?project=A4000)
-* Shred's classic Amiga 4000D mainboard
 
 ## Contribute
 

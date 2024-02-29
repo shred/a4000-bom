@@ -131,6 +131,10 @@ with open('docs/csv.html', 'w') as out:
     template = env.get_template('csv.html')
     out.write(template.render(data))
 
+with open('docs/diffs.html', 'w') as out:
+    template = env.get_template('diffs.html')
+    out.write(template.render(data))
+
 with open('docs/other.html', 'w') as out:
     template = env.get_template('other.html')
     out.write(template.render(data))
