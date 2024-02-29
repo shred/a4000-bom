@@ -2,8 +2,8 @@
 ---
 project: "Amiga 4000D Rev B"
 base: "https://shred.github.io/a4000-bom/"
-version: "0.18"
-date: "2024-02-28"
+version: "0.19"
+date: "2024-02-29"
 source:
   repo: "GitHub"
   url: "https://github.com/shred/a4000-bom"

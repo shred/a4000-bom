@@ -16,6 +16,7 @@
   <li><a href="a4000-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
   <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
   <li><a href="a4000-bom.xlsx">Excel File Download</a> &ndash; for your spreadsheet application</li>
+  <li><a href="diffs.html">Known Discrepancies</a> &ndash; in our sources</li>
   <li><a href="https://github.com/shred/a4000-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
   <li><a href="other.html">Other Bill of Materials</a> &ndash; if you liked this one</li>
 </ul></div>
@@ -63,19 +64,14 @@
 <p>On an original Amiga 4000D board, only U103, U175, U176, and U700 are socketed. It may also be helpful to use sockets for all GAL chips, as they may need to be reprogrammed if it should turn out that a wrong JEDEC file was used.</p>
 <p>It is disputed if all custom chips should be seated in PLCC sockets. On the one hand, it would not be needed to solder in the rare custom chips, and it would also be easy to remove them later. On the other hand, there may be signal problems caused by the sockets that may be hard to trace.</p>
 <p>Also note that the sockets of U700 and U714 are very close together. It might be difficult to solder in both of them correctly.</p>
+<h2>Acill Board</h2>
+<p>If you rebuild an Amiga with Acill&rsquo;s replica board, make sure to populate R465. L500 can be left out, as it is not connected anywhere. If R465 is missing, you will get a very dark or even black video signal, because the video DAC has no output reference voltage.</p>
+<p>On original Commodore boards, L500 is populated, and R465 is usually left out.</p>
 <h2>Disclaimer</h2>
 <p>This is not an official list! It was collected and reviewed by Amiga enthusiasts.</p>
 <p>Although we strive to make the information in this project as helpful and accurate as possible, it is provided &ldquo;as is&rdquo; and without warranties of any kind either expressed or implied.</p>
 <p>In other words: You might spend a lot of money, and end up with a non-functioning mainboard or a cardboard box full of useless components.</p>
 <p><strong>Use at your own risk!</strong></p>
-<h2>Sources</h2>
-<p>The following sources have been used:</p>
-<ul>
-<li>AmigaWiki: <a href="http://www.amigawiki.de/dnl/schematics/A4000_Rb.pdf">A4000 Rev B Schematic</a></li>
-<li>Acill: <a href="https://github.com/Acill/A4000RevB">A4000 Replica Project</a></li>
-<li>Chucky: <a href="http://locator.reamiga.info/locator.php?project=A4000">Component Locator, A4000 RevB - Acill</a></li>
-<li>Shred&rsquo;s classic Amiga 4000D mainboard</li>
-</ul>
 <h2>Contribute</h2>
 <p>This list is meant to be a community work. Our goal is to have a canonical list that people can rely on when ordering parts for building an own Amiga 4000D mainboard.</p>
 <p>However, this list may not be free of errors. If you have found one, please <a href="https://github.com/shred/a4000-bom/issues">open an issue</a>, send a patch, or <a href="https://www.a1k.org/forum/index.php?members/6632/">send me a message</a> at the A1K.org forum.</p>
@@ -83,7 +79,7 @@
 <p>This project is distributed under the terms of <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a>.</p>
 </article>
     <footer>
-      <strong>Amiga 4000D Rev B Bill of Material</strong>, Version: 0.18 (2024-02-28)<br />
+      <strong>Amiga 4000D Rev B Bill of Material</strong>, Version: 0.19 (2024-02-29)<br />
       Source at <a class="printable" href="https://github.com/shred/a4000-bom">GitHub</a> &ndash;
       License: <a href="https://www.gnu.org/licenses/gpl-3.0.en.html#content">GNU General Public License (GPLv3)</a><br />
       <strong>This content is provided "as is" and without warranties of any kind either expressed or implied.</strong>
