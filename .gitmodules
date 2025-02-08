@@ -1,0 +1,4 @@
+[submodule "pages"]
+	path = pages
+	url = git@codeberg.org:shred/a4000-bom.git
+	branch = pages

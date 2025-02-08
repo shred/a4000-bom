@@ -2,29 +2,29 @@
 
 <div class="toc"><ul>
   <li><a href="index.html">Introduction</a> &ndash; this page</li>
-  <li><a href="a4000-bom.html">The Bill of Material</a> &ndash; what you are probably here for</li>
+  <li><a href="a4000-bom.html">The Bill of Materials</a> &ndash; what you are probably here for</li>
   <li><a href="csv.html">CSV Export</a> &ndash; for Mouser Electronics</li>
   <li><a href="a4000-bom.xlsx">Excel File Download</a> &ndash; for your spreadsheet application</li>
   <li><a href="diffs.html">Known Discrepancies</a> &ndash; in our sources</li>
-  <li><a href="https://github.com/shred/a4000-bom">GitHub Project Page</a> &ndash; feel free to contribute</li>
+  <li><a href="https://codeberg.org/shred/a4000-bom">Codeberg Project Page</a> &ndash; feel free to contribute</li>
   <li><a href="other.html">Other Bill of Materials</a> &ndash; if you liked this one</li>
 </ul></div>
 
 # Introduction
 
-This is the Bill of Material for a replica Amiga 4000D Rev B. It is optimized for [Acill's A4000 Replica Project](https://github.com/Acill/A4000RevB) boards.
+This is the Bill of Materials for a replica Amiga 4000D Rev B. It is optimized for [Acill's A4000 Replica Project](https://github.com/Acill/A4000RevB) boards.
 
 ## Read Me First!
 
 If you want to build your own Amiga, be aware that the machine was designed in the early 1990s.
 
-While almost all of the standard components are still available, some components are very rare by now. You will need *all* of the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
+While almost all the standard components are still available, some components are very rare by now. You will need *all* the listed components (except of those marked optional). We recommend that you try to get the components marked as <span class="rare">Rare</span> first, so you won't waste your money on standard components if you fail to get all the rare ones.
 
 Also be aware that there are six PALs that need to be programmed. They cannot be programmed in-circuit, so you will need a GAL capable programmer.
 
 As the Amiga mainboard does not comply to the ATX form factor, you cannot use a standard PC case and a PC power supply without careful selection and manual changes.
 
-This bill of material only comprises of the components required for the mainboard itself. **The absolute bare minimum for a booting machine is:**
+This bill of material includes only the components required for the mainboard itself. **The absolute bare minimum for a booting machine is:**
 
 * This mainboard, fully assembled and tested
 * A power supply (and a Mate-N-Lok connector/adapter unless an original PSU is used)
@@ -55,7 +55,7 @@ If you use the Atmel chips, we would appreciate your feedback (both positive and
 
 ## Electrolytic Capacitors
 
-This list also includes regular electrolytic capacitors, which can leak and cause damage to the board as they age. You should prefer to use capacitors with a higher voltage rating and a maximum temperature of at least 85°C, to extend their lifetime. We recommend to get polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
+This list also includes regular electrolytic capacitors, which can leak and cause damage to the board as they age. You should prefer to use capacitors with a higher voltage rating and a maximum temperature of at least 85°C, to extend their lifetime. We recommend getting polymer hybrid aluminum electrolytic capacitors (if possible), and generally get the best quality that money can buy.
 
 Some people prefer to use ceramic or tantalum capacitors instead. They cannot leak, but they have other disadvantages. There are good arguments for and against, so the final choice is up to you.
 
@@ -101,7 +101,7 @@ In other words: You might spend a lot of money, and end up with a non-functionin
 
 This list is meant to be a community work. Our goal is to have a canonical list that people can rely on when ordering parts for building an own Amiga 4000D mainboard.
 
-However, this list may not be free of errors. If you have found one, please [open an issue](https://github.com/shred/a4000-bom/issues), send a patch, or [send me a message](https://www.a1k.org/forum/index.php?members/6632/) at the A1K.org forum.
+However, this list may not be free of errors. If you have found one, please [open an issue](https://codeberg.org/shred/a4000-bom/issues), send a patch, or [send me a message](https://www.a1k.org/forum/index.php?members/6632/) at the A1K.org forum.
 
 ## License
 

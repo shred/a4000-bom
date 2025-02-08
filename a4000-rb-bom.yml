@@ -1,12 +1,12 @@
 # A4000D Rev B Bill of Material
 ---
 project: "Amiga 4000D Rev B"
-base: "https://shred.github.io/a4000-bom/"
-version: "0.19"
-date: "2024-02-29"
+base: "https://shred.codeberg.page/a4000-bom/"
+version: "0.20"
+date: "2025-02-08"
 source:
-  repo: "GitHub"
-  url: "https://github.com/shred/a4000-bom"
+  repo: "Codeberg"
+  url: "https://codeberg.org/shred/a4000-bom"
 license:
   type: "GNU General Public License (GPLv3)"
   url: "https://www.gnu.org/licenses/gpl-3.0.en.html#content"

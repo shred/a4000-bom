@@ -1,16 +1,16 @@
-# Amiga 4000 Bill of Material
+# Amiga 4000 Bill of Materials
 
-This project contains the Bill of Material for building an own **Amiga 4000 Desktop Rev. B** mainboard.
+This project contains the Bill of Materials for building an own **Amiga 4000 Desktop Rev. B** mainboard.
 
 <div style="text-align:center;font-size:130%;font-weight:bold">
-<a href="https://shred.github.io/a4000-bom/">Read the Bill of Material here!</a>
+<a href="https://shred.codeberg.page/a4000-bom/">Read the Bill of Materials here!</a>
 </div>
 
 ## Contribute
 
 This list is meant to be a community work. Our goal is to have a canonical list that people can rely on when ordering parts for building an own Amiga 4000D mainboard.
 
-However, this list may not be free of errors. If you have found one, please [open an issue](https://github.com/shred/a4000-bom/issues), send a patch, or [send me a message](https://www.a1k.org/forum/index.php?members/6632/) at the A1K.org forum.
+However, this list may not be free of errors. If you have found one, please [open an issue](https://codeberg.org/shred/a4000-bom/issues), send a patch, or [send me a message](https://www.a1k.org/forum/index.php?members/6632/) at the A1K.org forum.
 
 ## Technical Background
 
@@ -37,6 +37,12 @@ The following sources have been used:
 This is not an official list! It was collected and reviewed by Amiga enthusiasts.
 
 Although we strive to make the information in this project as helpful and accurate as possible, it is provided "as is" and without warranties of any kind either expressed or implied. **Use it at your own risk!**
+
+## Building
+
+After cloning, initialize the submodule: `git submodule init; git submodule update`.
+
+Invoke `generate.py` to generate the page content. You will find the generated pages in the `pages` directory.
 
 ## Kudos
 

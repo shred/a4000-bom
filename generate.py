@@ -48,7 +48,7 @@ def validate(bom):
                 raise ValueError('Part "{}": Incorrect component order'.format(reference))
 
 def xlsxExport(data):
-    workbook = xlsxwriter.Workbook('docs/a4000-bom.xlsx')
+    workbook = xlsxwriter.Workbook('pages/a4000-bom.xlsx')
     worksheet = workbook.add_worksheet()
     worksheet.freeze_panes(1, 0)
     fmtTitle = workbook.add_format({'bold': True, 'bg_color': '#f47176'})
@@ -119,23 +119,23 @@ with open("a4000-rb-bom.yml", 'r') as stream:
 
 validate(data['bom'])
 
-with open('docs/index.html', 'w') as out:
+with open('pages/index.html', 'w') as out:
     template = env.get_template('index.html')
     out.write(template.render(data))
 
-with open('docs/a4000-bom.html', 'w') as out:
+with open('pages/a4000-bom.html', 'w') as out:
     template = env.get_template('bom.html')
     out.write(template.render(data))
 
-with open('docs/csv.html', 'w') as out:
+with open('pages/csv.html', 'w') as out:
     template = env.get_template('csv.html')
     out.write(template.render(data))
 
-with open('docs/diffs.html', 'w') as out:
+with open('pages/diffs.html', 'w') as out:
     template = env.get_template('diffs.html')
     out.write(template.render(data))
 
-with open('docs/other.html', 'w') as out:
+with open('pages/other.html', 'w') as out:
     template = env.get_template('other.html')
     out.write(template.render(data))
 
